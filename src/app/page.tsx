@@ -266,15 +266,16 @@ export default function Home() {
               ✅ HYDE® Thermo:
               <br />
               <br />
-              Packed with Capsimax® to supercharge your metabolism and loaded
-              with caffeine and Vitamin B-12 to give you laser focus and
-              boundless energy.
+              Infused with Capsimax® to turbocharge your metabolism into
+              overdrive and fortified with caffeine and Vitamin B-12 for
+              razor-sharp focus and limitless energy.
               <br />
               <br />✅ L-CARNITINE 3000:
               <br />
               <br />
-              With its power-packed L-Carnitine and Pantothenic Acid, say hello
-              to turning fat into rocket fuel for your workouts.
+              With its power-packed L-Carnitine and Pantothenic Acid, this stuff
+              literally turns fat into energy, fueling your workouts to new
+              levels—the ultimate double whammy.
             </p>
             <br />
             <hr />
