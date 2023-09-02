@@ -96,13 +96,13 @@ export default function Home() {
   };
 
   const sampleOne: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693104669/ProSupps/productImages/sample1final-min_e68cio.png",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693695597/ProSupps/productImages/Theone-min_rupfwf.png",
     alt: "",
-    aspectRatio: "1080/469",
+    aspectRatio: "1/1",
   };
 
   const sampleTwo: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Oneone-min_rwvank.png",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693695597/ProSupps/productImages/Theone-min_rupfwf.png",
     alt: "",
     aspectRatio: "1/1",
   };
@@ -114,9 +114,9 @@ export default function Home() {
   };
 
   const sampleThree: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Testssfasf-min_kkk5df.png",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693695911/11f-min_bazo5f.png",
     alt: "",
-    aspectRatio: "1/1",
+    aspectRatio: "1080/811",
   };
 
   const valuesGridConfig: ValuesGridProps = {
@@ -375,56 +375,47 @@ export default function Home() {
           <ImageContainer imageContainerConfig={sampleTwo} />
           <div className={style.productInfoSection}>
             <p>
-              <span style={{ textDecoration: "underline" }}>SAMPLE #1</span>:
-              HYDE NIGHTMARE
+              L-Carnitine 3000: Your Secret Weapon for Fat-to-Energy Conversion
             </p>
             <p style={{ fontWeight: "800", fontStyle: "italic" }}>
-              Done with lackluster 'high-stim' pre-workouts? Meet NIGHTMARE.
-              <span style={{ textDecoration: "underline" }}>
-                We didn't just raise the bar, we broke it.
-              </span>
+              Had enough of energy products that ignore the real issue—stubborn
+              fat?
+            </p>
+            <br />
+            <p>
+              Meet ProSupps® L-Carnitine, your next-level weapon for converting
+              fat into the energy you crave.
             </p>
             <div className={`${style.infoBox} ${style.hydeInfo}`}>
               <div>
                 <Svg icon="ElectricIcon" color="white" />
-                <p>Off-the-Charts Energy</p>
+                <p>Fat-to-Energy Alchemy</p>
               </div>
               <p>
                 <span style={{ fontWeight: "500" }}>
-                  HYDE brings you a cocktail of clinically validated ingredients
-                  that'll make you feel like you've been plugged directly into a
-                  power outlet —
-                  <span style={{ fontWeight: "700" }}>NOT Exaggerating!</span>
-                </span>
-                <br />
-                <br />
-                <span
-                  style={{
-                    textShadow: "0px 0px 10px black",
-                    fontWeight: "700",
-                  }}
-                >
-                  Trust us, we don't call it{" "}
-                  <span
-                    style={{
-                      fontWeight: "900",
-
-                      fontStyle: "italic",
-                    }}
-                  >
-                    'Nightmare'
-                  </span>{" "}
-                  for nothing.
+                  This isn't your average energy supplement. ProSupps®
+                  L-Carnitine has been scientifically formulated to convert
+                  fatty acids directly into cellular energy.
+                  <br />
+                  <br />
+                  Imagine it as your body's own renewable energy source—
+                  <span style={{ fontWeight: "700" }}>
+                    no sugar, no calories, just pure fat-to-energy conversion.
+                  </span>
                 </span>
               </p>
               <div className={style.hydeBuffer}></div>
               <ImageContainer imageContainerConfig={hydeBanner} />
             </div>
-            <h3 style={{ marginTop: "20px" }}>Let's Put It Plainly:</h3>{" "}
+            <h3 style={{ marginTop: "20px" }}>The Bottom Line:</h3>{" "}
             <p>
               <span style={{ fontWeight: "500" }}>
-                No more settling for pre-workouts that fizzle out before your
-                workout even kicks into high gear.
+                No more energy solutions that leave you flat before you've even
+                hit your stride.
+                <br />
+                <br />
+                If you're ready to raise the bar on natural energy and recovery,
+                it's time you experienced ProSupps® L-Carnitine.
               </span>
               <br />
               <br />
@@ -435,8 +426,8 @@ export default function Home() {
                   fontStyle: "italic",
                 }}
               >
-                Ready to leave mediocrity behind? Experience HYDE Nightmare
-                today!
+                Flip the switch, go beyond the ordinary, and energize your
+                lifts, naturally.
               </span>
             </p>
             <hr style={{ marginTop: "20px" }} />
