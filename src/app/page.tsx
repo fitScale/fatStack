@@ -295,12 +295,18 @@ export default function Home() {
               <br />
               <br />
               With its power-packed L-Carnitine and Pantothenic Acid, this
-              formula{" "}
+              formula not only helps{" "}
               <span style={{ textDecoration: "underline", fontWeight: "700" }}>
-                helps support your body's natural ability to convert fat into
-                energy
+                support your body's natural ability to convert fat into energy
               </span>
-              , fueling your workouts to new levels!
+              , but also promotes faster exercise recovery.
+              <br />
+              <br />
+              <span style={{ textDecoration: "underline", fontWeight: "700" }}>
+                So say goodbye to next-day soreness
+              </span>{" "}
+              and fatigue—now you can fuel your workouts to new levels and
+              bounce back ready for more!
             </p>
             <br />
             <hr />
