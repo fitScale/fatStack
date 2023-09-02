@@ -270,6 +270,7 @@
 .gaurentee > p {
   color: lime;
   font-weight: 400;
+  line-height: 140%;
 }
 
 .productInfoSection {
