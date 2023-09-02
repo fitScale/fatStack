@@ -221,7 +221,7 @@ export default function Home() {
           <h2>Stop Trying to Lose Fat the "Traditional Way"</h2>
           <div className={style.productBuffer}></div>
           <div className={style.productInfoSection}>
-            <p style={{ fontSize: "20px" }}>
+            <p style={{ fontSize: "20px", fontWeight: "900" }}>
               The Fat-Loss Cheat Code—And How to Crack It:
             </p>
             <p style={{ fontStyle: "italic", fontWeight: "700" }}>
