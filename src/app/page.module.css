@@ -257,6 +257,21 @@
   position: absolute;
 }
 
+.gaurentee {
+  margin-top: 15px;
+  padding: 20px;
+  border: 3px dashed limegreen;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: rgba(0, 0, 0, 0.265);
+}
+
+.gaurentee > p {
+  color: lime;
+  font-weight: 400;
+}
+
 .productInfoSection {
   background-color: rgba(26, 26, 26, 0.5);
   width: 100;
@@ -275,6 +290,19 @@
 
 .productInfo > button {
   margin-top: 20px;
+}
+
+.headlineCopy {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.headlineCopy > p {
+  color: lime;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: underline;
 }
 
 .infoBox {

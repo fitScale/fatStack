@@ -335,6 +335,25 @@ export default function Home() {
             </div>
           </div>
           <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
+          <div className={style.gaurentee}>
+            <div className={style.headlineCopy}>
+              <Svg icon="verifiedIcon" color="lime" />
+              <p>The Insane ProSupps Gaurentee</p>
+            </div>
+            <p>
+              <span style={{ fontWeight: "700", textDecoration: "underline" }}>
+                If you don't find yourself absolutely THRILLED with your
+                purchase
+              </span>
+              , ship it back to us within 30 days, and you'll get every single
+              penny refunded.
+              <br />
+              <br />
+              <span style={{ fontWeight: "600", textDecoration: "underline" }}>
+                No question, no "buts," and absolutely zero BS.
+              </span>
+            </p>
+          </div>
         </div>
         <div
           className={style.informationContainer}
