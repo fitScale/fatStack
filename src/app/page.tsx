@@ -31,7 +31,7 @@ export default function Home() {
   };
 
   const productBanner: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693099455/ProSupps/banners/TheRealFinal_pxfdr2.jpg",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693693072/TheFinalOneFR_hypusy.jpg",
     alt: "",
     aspectRatio: "1080/2814",
   };
@@ -212,18 +212,17 @@ export default function Home() {
           </div>
         </div>
         <div className={style.productInfo}>
+          <ImageContainer imageContainerConfig={productBanner} />
+          <div className={style.prodcutText}>
+            <p>Your Secret Weapon for Fat-to-Energy Conversion!</p>
+            <p></p>
+            <p>Energize and Turbocharge Your Metabolism!</p>
+          </div>
+          <h2>Unlock the Secret Weapons for Fat Destruction:</h2>
           <div className={style.productBuffer}></div>
           <div className={style.productInfoSection}>
-            <p
-              style={{
-                fontSize: "20px",
-                fontWeight: "900",
-              }}
-            >
-              The Fat-Loss Cheat Code —
-              <span style={{ textDecoration: "underline" }}>
-                And How to Crack It:{" "}
-              </span>
+            <p style={{ fontSize: "20px", fontWeight: "900" }}>
+              The Fat-Loss Cheat Code—And How to Crack It:
             </p>
             <p style={{ fontStyle: "italic", fontWeight: "700" }}>
               You're doing everything "right"—lifting, cardio, you name it—but
@@ -523,60 +522,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className={style.informationContainer}>
-          <div>
-            <ImageContainer imageContainerConfig={productBackground} />
-          </div>
-          <ImageContainer imageContainerConfig={sampleThree} />
-          <div className={style.productInfoSection}>
-            <p>
-              <span style={{ textDecoration: "underline" }}>SAMPLE #3</span>:
-              WHEY ISOLATE
-            </p>
-            <p style={{ fontWeight: "800", fontStyle: "italic" }}>
-              ProSupps® Whey Isolate isn't your run-of-the-mill protein
-              powder—it's the upgrade your fitness journey has been screaming
-              for.
-            </p>
-            <div className={`${style.infoBox} ${style.hydeInfo}`}>
-              <div>
-                <Svg icon="FlexIcon" color="white" />
-                <p>Unleash Muscle Growth</p>
-              </div>
-              <p>
-                Our triple cold-filtered Powder retains all the essential amino
-                acids and valuable micro-fractions, ensuring your muscles get
-                the top-grade fuel they deserve.
-              </p>
-              <div
-                className={style.hydeBuffer}
-                style={{ aspectRatio: "1/0.72" }}
-              ></div>
-              <ImageContainer imageContainerConfig={proteinBanner} />
-            </div>
-            <h3 style={{ marginTop: "20px" }}>Let's Put It Plainly:</h3>{" "}
-            <p>
-              Don't squander your time and effort on subpar proteins that
-              compromise your goals.
-              <br />
-              <br />
-              <span
-                style={{
-                  fontWeight: "800",
 
-                  fontStyle: "italic",
-                }}
-              >
-                Ready to redefine your fitness journey? Elevate your game with
-                ProSupps Whey Isolate NOW!
-              </span>
-            </p>
-            <hr style={{ marginTop: "20px" }} />
-            <button className={style.cta} style={{ marginTop: "20px" }}>
-              YES, CLAIM MY FREE PRODUCTS!
-            </button>
-          </div>
-        </div>
         <div
           style={{ position: "relative", width: "100%", aspectRatio: "4/6.25" }}
         >
