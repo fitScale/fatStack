@@ -349,8 +349,18 @@ export default function Home() {
               penny refunded.
               <br />
               <br />
-              <span style={{ fontWeight: "600", textDecoration: "underline" }}>
+              <span style={{ fontWeight: "800", textDecoration: "underline" }}>
                 No question, no "buts," and absolutely zero BS.
+              </span>
+              <br />
+              <br />
+              <span style={{ fontWeight: "400" }}>
+                <span style={{ fontWeight: "700" }}>
+                  We offer a guarantee like this only because we're THAT
+                  confident you'll love it
+                </span>
+                , and we truly believe these products will truly assist you on
+                your weight loss journey.
               </span>
             </p>
           </div>
