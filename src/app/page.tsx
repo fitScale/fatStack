@@ -221,26 +221,26 @@ export default function Home() {
           <div className={style.productBuffer}></div>
           <div className={style.productInfoSection}>
             <p style={{ fontSize: "20px" }}>
-              Are You Tired of Sweating Buckets Without Seeing Results?
+              The Fat-Loss Cheat Code—And How to Crack It:
             </p>
             <p>
               You're doing everything "right"—lifting, cardio, you name it—but
               that stubborn fat isn't budging. Frustrating, isn't it?
-              <br />
-              <br />
-              Trust us, we've all been there and we get it.
-              <br />
-              <br />
             </p>
-            <p style={{ fontSize: "20px" }}>The Big 'Fat' Problem!</p>
+            <br />
+            <p style={{ fontSize: "18px" }}>The Big 'Fat' Problem...</p>
             <br />
             <p>
-              You're worn out halfway through your workouts and can't break that
-              "barrier" to finally burn the fat. Recovery takes forever, making
-              it tough to maintain your routine.
+              The problem for most people is that they become so drained halfway
+              through their workouts that they can't break through that pesky
+              'barrier' to burn off the fat.
               <br />
               <br />
-              Let's not sugar-coat it—this downright sucks.
+              To make matters worse, slow recovery times make maintaining a
+              consistent routine challenging
+              <br />
+              <br />
+              Trust us, we've all been there and it sucks...
               <br />
               <br />
               ❌ Barrier #1: Fat is a stubborn foe that takes a ton of energy to
