@@ -63,18 +63,19 @@
 }
 
 .banner > p:nth-child(2) {
-  top: 33%;
+  top: 31%;
   left: 24px;
   width: 36%;
   font-size: 12px;
 }
 
 .banner > p:nth-child(3) {
-  top: 43%;
-  right: 24px;
-  width: 25%;
+  top: 37%;
+  right: 21px;
+  width: 21%;
   text-align: right;
-  font-size: 11.5px;
+  font-size: 11px;
+  text-align: right;
 }
 
 .copy {
@@ -108,7 +109,7 @@
   font-size: 16px;
   font-weight: 800;
   letter-spacing: 0.75px;
-  transform: translateY(-5px);
+  transform: translateY(-2px);
 }
 
 .copy > div > p:nth-child(4) {
@@ -125,6 +126,10 @@
   border: 2px solid white;
   color: white;
   border-radius: var(--borderRadius);
+}
+
+.productInfoSection > p {
+  font-weight: 450;
 }
 
 .boxes {

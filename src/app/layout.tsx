@@ -21,7 +21,7 @@ const robuck = localFont({
 });
 
 const archivo = Archivo({ subsets: ["latin"], variable: "--archivo" });
-const inter = Inter({ subsets: ["latin"], variable: "--Inter" });
+const inter = Inter({ subsets: ["latin"], variable: "--inter" });
 
 export const metadata = {
   title: "  PROSUPPS - FREE SAMPLES + SHAKER",
@@ -38,7 +38,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${archivo.variable} ${inter.variable} ${helvetica.variable}, ${robuck.variable}`}
+      className={`${inter.variable} ${archivo.variable}  ${helvetica.variable}, ${robuck.variable}`}
     >
       <ApolloClientProvider>
         <body>{children}</body>

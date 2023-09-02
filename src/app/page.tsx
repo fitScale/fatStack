@@ -178,16 +178,14 @@ export default function Home() {
         <div className={style.banner}>
           <ImageContainer imageContainerConfig={mobileBanner} />
           <p>
-            GET 4 OF OUR BEST-SELLERS{" "}
-            <span style={{ fontWeight: 900 }}>FOR FREE!</span>
+            TURBOCHARGES YOUR{" "}
+            <span style={{ fontWeight: 900, textDecoration: "underline" }}>
+              {" "}
+              METABOLISM
+            </span>
+            , ENERGY, AND FOCUS.
           </p>
-          <p>
-            TOTAL VALUE:{" "}
-            <span style={{ textDecoration: "line-through", fontWeight: 900 }}>
-              $21.72
-            </span>{" "}
-            <span style={{ textDecoration: "underline" }}> FREE!</span>
-          </p>
+          <p>SUPER- CHARGES FAT TO ENERGY CONVERSION!</p>
           <div>
             <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
             <p>HURRY, THIS SALE ENDS SOON!</p>
@@ -198,7 +196,10 @@ export default function Home() {
           <div>
             <p>LIMITED TIME OFFER, GET</p>
             <h1>THE ULTIMATE FAT BURNING DUO</h1>
-            <p>AT A WHOPPING 25% DISCOUNT</p>
+            <p>
+              AT A WHOPPING{" "}
+              <span style={{ textDecoration: "underline" }}>25% DISCOUNT</span>
+            </p>
           </div>
         </div>
         <div className={style.buffer}> </div>
@@ -228,12 +229,16 @@ export default function Home() {
               that stubborn fat isn't budging. Frustrating, isn't it?
             </p>
             <br />
-            <p style={{ fontSize: "18px" }}>The Big 'Fat' Problem...</p>
+            <p style={{ fontSize: "18px", fontWeight: "800" }}>
+              The Big 'Fat' Problem...
+            </p>
             <br />
             <p>
               The problem for most people is that they become so drained halfway
-              through their workouts that they can't break through that pesky
-              'barrier' to burn off the fat.
+              through their workouts that they{" "}
+              <span style={{ textDecoration: "underline", fontWeight: "700" }}>
+                can't break through that pesky 'barrier' to burn off the fat.
+              </span>
               <br />
               <br />
               To make matters worse, slow recovery times make maintaining a
@@ -243,39 +248,59 @@ export default function Home() {
               Trust us, we've all been there and it sucks...
               <br />
               <br />
-              ❌ Barrier #1: Fat is a stubborn foe that takes a ton of energy to
-              burn.
+              <span style={{ fontStyle: "italic", fontWeight: "800" }}>
+                ❌ Barrier #1: Fat is a stubborn foe that takes a ton of energy
+                to burn.
+              </span>
               <br />
               <br />
-              ❌ Barrier #2: Slow recovery is killing your consistency and your
-              spirit.
+              <span style={{ fontStyle: "italic", fontWeight: "800" }}>
+                ❌ Barrier #2: Slow recovery is killing your consistency and
+                your spirit.
+              </span>
               <br />
               <br />
             </p>
             <hr />
             <br />
-            <p style={{ fontSize: "20px" }}>
+            <p style={{ fontSize: "18px", fontWeight: "800" }}>
               How to Obliterate These Barriers With Ease...
             </p>
             <br />
             <p>
-              Drumroll, please... Meet the dynamic duo your fat-loss journey has
-              been crying out for:
+              <span style={{ fontStyle: "italic", fontWeight: "800" }}>
+                {" "}
+                Drumroll, please...
+              </span>{" "}
+              Meet the dynamic duo your fat-loss journey has been crying out
+              for:
               <br />
               <br />
-              ✅ HYDE® Thermo:
+              <span style={{ fontStyle: "italic", fontWeight: "800" }}>
+                {" "}
+                ✅ HYDE® Thermo:
+              </span>
               <br />
               <br />
               Infused with Capsimax® to turbocharge your metabolism into
               overdrive and fortified with caffeine and Vitamin B-12 for
-              razor-sharp focus and limitless energy.
+              <span style={{ textDecoration: "underline", fontWeight: "700" }}>
+                razor-sharp focus and powerful energy.
+              </span>
               <br />
-              <br />✅ L-CARNITINE 3000:
+              <br />{" "}
+              <span style={{ fontStyle: "italic", fontWeight: "800" }}>
+                ✅ L-CARNITINE 3000:
+              </span>
               <br />
               <br />
-              With its power-packed L-Carnitine and Pantothenic Acid, this stuff
-              literally turns fat into energy, fueling your workouts to new
-              levels—the ultimate double whammy.
+              With its power-packed L-Carnitine and Pantothenic Acid, this
+              formula{" "}
+              <span style={{ textDecoration: "underline", fontWeight: "700" }}>
+                helps support your body's natural ability to convert fat into
+                energy
+              </span>
+              , fueling your workouts to new levels!
             </p>
             <br />
             <hr />

@@ -122,10 +122,10 @@ h5 {
 }
 
 p {
+  font-family: var(--inter);
   font-size: 14px;
   font-weight: 600;
   line-height: 125%;
-  font-family: var(--inter);
 }
 
 button {
