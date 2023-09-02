@@ -102,19 +102,19 @@ export default function Home() {
   };
 
   const sampleTwo: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693104669/ProSupps/productImages/Smaple2-min_ekqmpa.png",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Oneone-min_rwvank.png",
     alt: "",
-    aspectRatio: "1080/469",
+    aspectRatio: "1/1",
   };
 
   const backgroundDesktop: ImageContainerProps = {
     src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693544021/ProSupps/Misc%20Assets/BackgroundTest_mjwhh4.png",
     alt: "",
-    aspectRatio: "1920/1080",
+    aspectRatio: "1/1",
   };
 
   const sampleThree: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693516330/ProSupps/banners/Proteinpng_rdnty3.png",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Testssfasf-min_kkk5df.png",
     alt: "",
     aspectRatio: "1/1",
   };
@@ -217,71 +217,66 @@ export default function Home() {
             <p>POST-WORKOUT</p>
             <p>INTRA-WORKOUT</p>
           </div>
-          <h2>Fuel Every Aspect of Your Workout...</h2>
+          <h2>Stop Trying to Lose Fat the "Traditional Way"</h2>
           <div className={style.productBuffer}></div>
           <div className={style.productInfoSection}>
-            <p>Master Every Workout Stage... FOR FREE!</p>
+            <p style={{ fontSize: "20px" }}>
+              Are You Tired of Sweating Buckets Without Seeing Results?
+            </p>
             <p>
-              From the motivation to start, the endurance to push through, to
-              the nutrition for recovery — we've got your back.
+              You're doing everything "right"—lifting, cardio, you name it—but
+              that stubborn fat isn't budging. Frustrating, isn't it?
               <br />
               <br />
-              <span style={{ fontWeight: "800" }}>
-                Here's what you'll be getting:
-              </span>
-              <br />
-              <br />✅ Hyde Nigtmare: ( Pre ) —{" "}
-              <span
-                style={{ textDecoration: "line-through", color: "lightGrey" }}
-              >
-                $2.99
-              </span>{" "}
-              FREE
-              <br />
-              <br />✅ HydroBCAA: ( Intra ) —{" "}
-              <span
-                style={{ textDecoration: "line-through", color: "lightGrey" }}
-              >
-                $2.99
-              </span>{" "}
-              FREE
-              <br />
-              <br />✅ Whey Isolate: ( Post ) —{" "}
-              <span
-                style={{ textDecoration: "line-through", color: "lightGrey" }}
-              >
-                $2.99
-              </span>{" "}
-              FREE
-              <br />
-              <br />
-              And here's the cherry on top—we're throwing in our premium shaker
-              at no extra cost. Yes, you heard that right... FREE!
-              <br />
-              <br />✅ Premium Shaker —{" "}
-              <span
-                style={{ textDecoration: "line-through", color: "lightGrey" }}
-              >
-                $12.99
-              </span>{" "}
-              FREE
-              <br />
-              <br />
-              —
-              <br />
-              <span
-                style={{
-                  fontWeight: "800",
-
-                  fontStyle: "italic",
-                }}
-              >
-                Act fast, because this deal is as hot as they come. We have
-                limited stock for all items; once we are out, we are out!
-              </span>
+              Trust us, we've all been there and we get it.
               <br />
               <br />
             </p>
+            <p style={{ fontSize: "20px" }}>The Big 'Fat' Problem!</p>
+            <br />
+            <p>
+              You're worn out halfway through your workouts and can't break that
+              "barrier" to finally burn the fat. Recovery takes forever, making
+              it tough to maintain your routine.
+              <br />
+              <br />
+              Let's not sugar-coat it—this downright sucks.
+              <br />
+              <br />
+              ❌ Barrier #1: Fat is a stubborn foe that takes a ton of energy to
+              burn.
+              <br />
+              <br />
+              ❌ Barrier #2: Slow recovery is killing your consistency and your
+              spirit.
+              <br />
+              <br />
+            </p>
+            <hr />
+            <br />
+            <p style={{ fontSize: "20px" }}>
+              How to Obliterate These Barriers With Ease...
+            </p>
+            <br />
+            <p>
+              Drumroll, please... Meet the dynamic duo your fat-loss journey has
+              been crying out for:
+              <br />
+              <br />
+              ✅ HYDE® Thermo:
+              <br />
+              <br />
+              Packed with Capsimax® to supercharge your metabolism and loaded
+              with caffeine and Vitamin B-12 to give you laser focus and
+              boundless energy.
+              <br />
+              <br />✅ L-CARNITINE 3000:
+              <br />
+              <br />
+              With its power-packed L-Carnitine and Pantothenic Acid, say hello
+              to turning fat into rocket fuel for your workouts.
+            </p>
+            <br />
             <hr />
 
             <div className={style.infoBox} style={{ marginTop: "20px" }}>
@@ -309,11 +304,14 @@ export default function Home() {
           </div>
           <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
         </div>
-        <div className={style.informationContainer}>
+        <div
+          className={style.informationContainer}
+          style={{ backgroundColor: "rgba(203, 203, 203, 0.5)" }}
+        >
           <div>
             <ImageContainer imageContainerConfig={productBackground} />
           </div>
-          <ImageContainer imageContainerConfig={sampleOne} />
+          <ImageContainer imageContainerConfig={sampleTwo} />
           <div className={style.productInfoSection}>
             <p>
               <span style={{ textDecoration: "underline" }}>SAMPLE #1</span>:
@@ -393,7 +391,7 @@ export default function Home() {
           <div>
             <ImageContainer imageContainerConfig={productBackground} />
           </div>
-          <ImageContainer imageContainerConfig={sampleTwo} />
+          <ImageContainer imageContainerConfig={sampleThree} />
           <div className={style.productInfoSection}>
             <p>
               <span style={{ textDecoration: "underline" }}>SAMPLE #2</span>:
