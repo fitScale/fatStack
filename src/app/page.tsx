@@ -212,13 +212,6 @@ export default function Home() {
           </div>
         </div>
         <div className={style.productInfo}>
-          <ImageContainer imageContainerConfig={productBanner} />
-          <div className={style.prodcutText}>
-            <p>PRE-WORKOUT</p>
-            <p>POST-WORKOUT</p>
-            <p>INTRA-WORKOUT</p>
-          </div>
-          <h2>Stop Trying to Lose Fat the "Traditional Way"</h2>
           <div className={style.productBuffer}></div>
           <div className={style.productInfoSection}>
             <p style={{ fontSize: "20px", fontWeight: "900" }}>
