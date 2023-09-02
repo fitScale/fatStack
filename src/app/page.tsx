@@ -185,7 +185,7 @@ export default function Home() {
             </span>
             , ENERGY, AND FOCUS.
           </p>
-          <p>SUPER- CHARGES FAT TO ENERGY CONVERSION!</p>
+          <p>ENHANCES FAT TO ENERGY CONVERSION!</p>
           <div>
             <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
             <p>HURRY, THIS SALE ENDS SOON!</p>
@@ -224,12 +224,12 @@ export default function Home() {
             <p style={{ fontSize: "20px" }}>
               The Fat-Loss Cheat Code—And How to Crack It:
             </p>
-            <p>
+            <p style={{ fontStyle: "italic", fontWeight: "700" }}>
               You're doing everything "right"—lifting, cardio, you name it—but
               that stubborn fat isn't budging. Frustrating, isn't it?
             </p>
             <br />
-            <p style={{ fontSize: "18px", fontWeight: "800" }}>
+            <p style={{ fontSize: "18px", fontWeight: "900" }}>
               The Big 'Fat' Problem...
             </p>
             <br />
@@ -263,7 +263,7 @@ export default function Home() {
             </p>
             <hr />
             <br />
-            <p style={{ fontSize: "18px", fontWeight: "800" }}>
+            <p style={{ fontSize: "18px", fontWeight: "900" }}>
               How to Obliterate These Barriers With Ease...
             </p>
             <br />
