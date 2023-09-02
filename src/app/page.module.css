@@ -1,0 +1,690 @@
+.main {
+  position: relative;
+  min-height: 3000px;
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  height: 50px;
+  padding: 17px 24px;
+  margin-top: 10px;
+}
+
+.header > div {
+  width: 35%;
+  aspect-ratio: 776/97;
+}
+
+.banner {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 100%;
+}
+
+.banner2 {
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 100%;
+}
+
+.banner > div {
+  width: 100%;
+}
+
+.banner > div:last-child {
+  position: absolute;
+  bottom: 28px;
+  left: 0px;
+  z-index: 1;
+  padding: 0px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner > div:last-child > p {
+  margin-top: 15px;
+  font-size: 12px;
+  margin-bottom: 7px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.banner > p {
+  position: absolute;
+}
+
+.banner > div:first-child {
+  z-index: -1;
+}
+
+.banner > p:nth-child(2) {
+  top: 33%;
+  left: 24px;
+  width: 36%;
+  font-size: 12px;
+}
+
+.banner > p:nth-child(3) {
+  top: 43%;
+  right: 24px;
+  width: 25%;
+  text-align: right;
+  font-size: 11.5px;
+}
+
+.copy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.copy > div {
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 24px;
+  z-index: 1;
+}
+
+.copy > div > h1 {
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.copy > div > p:nth-child(1) {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.copy > div > p:nth-child(3) {
+  color: red;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+  transform: translateY(-5px);
+}
+
+.copy > div > p:nth-child(4) {
+  font-size: 10px;
+  margin-left: auto;
+}
+
+.cta {
+  width: 100%;
+  padding: 17px 0px;
+  font-size: 15px;
+  font-weight: 800;
+  background-color: var(--primaryColor);
+  border: 2px solid white;
+  color: white;
+  border-radius: var(--borderRadius);
+}
+
+.boxes {
+  height: 16px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.boxContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.buffer {
+  width: 100%;
+  aspect-ratio: 4/4.75;
+}
+
+.slider {
+  background-image: linear-gradient(black, rgb(43, 43, 43));
+  height: 60px;
+  z-index: -10;
+  border-bottom: 1px solid white;
+  position: relative;
+}
+.slider > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  bottom: 22px;
+  left: -10px;
+}
+
+.slider > div > div {
+  filter: brightness(1000%) saturate(0%);
+}
+
+.slider > div > div:first-child {
+  filter: brightness(1000%) saturate(0%);
+  height: 18px;
+}
+
+.slider > div > div:nth-child(2) {
+  filter: brightness(1000%) saturate(0%);
+  height: 20px;
+}
+
+.slider > div > div:nth-child(3) {
+  filter: brightness(1000%) saturate(0%);
+  height: 30px;
+}
+
+.slider > div > div:nth-child(4) {
+  filter: brightness(1000%) saturate(0%);
+  height: 20px;
+}
+
+.productInfo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1080/2814;
+  padding: 24px 24px;
+  border-bottom: 2px solid white;
+  padding-bottom: 40px;
+  background-color: #515151;
+}
+
+.productInfo > div:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.prodcutText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 1080/2814;
+  z-index: 1;
+}
+
+.prodcutText > p:nth-child(1) {
+  position: absolute;
+  top: 10.75%;
+  left: 24px;
+  width: 10%;
+  font-size: 13px;
+}
+
+.prodcutText > p:nth-child(2) {
+  position: absolute;
+  text-align: right;
+  top: 7%;
+  right: 50px;
+  width: 20%;
+  font-size: 13px;
+}
+
+.prodcutText > p:nth-child(3) {
+  position: absolute;
+  text-align: right;
+  top: 11.75%;
+  right: 24px;
+  width: 20%;
+  font-size: 13px;
+  z-index: 1;
+}
+
+.productBuffer {
+  width: 100%;
+  aspect-ratio: 1/0.78;
+}
+
+.productInfo > h2 {
+  position: absolute;
+}
+
+.productInfoSection {
+  background-color: rgba(26, 26, 26, 0.5);
+  width: 100;
+  backdrop-filter: blur(10px);
+  border-radius: var(--borderRadius);
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.productInfoSection > p:nth-child(1) {
+  font-size: 18px;
+  font-family: var(--inter);
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.productInfo > button {
+  margin-top: 20px;
+}
+
+.infoBox {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  margin-top: 14px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid white;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+
+.trust {
+  display: flex;
+  gap: 10px;
+  margin-top: 13px;
+  justify-content: center;
+  align-items: center;
+}
+
+.trust > p {
+  font-size: 12px;
+}
+
+.infoBox > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.infoBox > div > p {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.informationContainer {
+  padding: 24px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(65, 65, 65, 0.68);
+  border-bottom: 2px solid white;
+}
+
+.informationContainer > div:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.informationContainer > div:nth-child(3) {
+  margin-bottom: 20px;
+}
+
+.informationContainer > div:first-child > img {
+  filter: opacity(10%);
+}
+
+.informationContainer > div:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.hydeInfo > div:last-child {
+  width: 100%;
+  aspect-ratio: 2/1.75;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hydeBuffer {
+  width: 100%;
+  aspect-ratio: 1/0.57;
+}
+
+.reviews {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(0, 0, 0);
+}
+
+.mainDesktop {
+  display: none;
+}
+
+@media (min-width: 961px) {
+  .main {
+    display: none;
+  }
+  .mainDesktop {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    min-height: 3000px;
+  }
+  .desktopBanner {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .desktopHeader {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    display: flex;
+    height: 65px;
+    width: 100%;
+    padding: 20px 48px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .desktopHeader > div:first-child {
+    height: 100%;
+  }
+
+  .desktopBanner > div:nth-child(2) {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  }
+  .desktopCopy {
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 48px;
+    padding-top: 11%;
+    border-bottom: 2px solid white;
+  }
+
+  .desktopCopy > h1 {
+    margin-top: 22px;
+  }
+
+  .desktopCopy > p:nth-child(1) {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .desktopCopy > p:nth-child(3) {
+    color: red;
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+  .desktopCopyText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+  }
+
+  .desktopCopyText > .infoBox {
+    width: 80%;
+  }
+  .desktopCopyText > button {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .handle {
+    text-align: center;
+    width: 80%;
+    margin-top: 15px;
+    font-weight: 200;
+  }
+
+  .desktopCopyText > h1 {
+    margin-top: 22px;
+  }
+
+  .desktopCopyText > p:nth-child(1) {
+    font-size: 20px;
+    align-self: flex-start;
+  }
+
+  .desktopCopyText > p:nth-child(3) {
+    color: red;
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+
+  .ticker {
+    position: absolute;
+    bottom: 50px;
+    right: 13.75%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .four {
+    position: absolute;
+    top: 25%;
+    font-size: 18px;
+    right: 41%;
+    width: 9%;
+  }
+
+  .five {
+    position: absolute;
+    top: 40%;
+    font-size: 18px;
+    right: 5%;
+    width: 9%;
+    text-align: right;
+  }
+
+  .slider {
+    background-image: linear-gradient(black, rgb(43, 43, 43));
+    height: 80px;
+    border-bottom: 1px solid white;
+    position: relative;
+    display: flex;
+  }
+  .slider > div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    bottom: 22px;
+    left: -10px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 27%;
+  }
+
+  .productInfosection {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1920/1389;
+    z-index: -1;
+    background-color: #363636;
+  }
+
+  .desktopInfoCopy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .desktopInfoCopy > p:nth-child(1) {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+  }
+  .desktopInfoCopy > p:nth-child(2) {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  }
+
+  .desktopInfoCopy > p:nth-child(3) {
+    position: absolute;
+    top: 33%;
+    right: 0%;
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    padding: 40px 48px;
+    gap: 30px;
+  }
+  .grid > div {
+    height: 100%;
+  }
+
+  .grid > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .grid1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .grid1 > h2 {
+    font-size: 65px;
+  }
+
+  .productdesktop {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: rgb(77, 77, 77, 0.5);
+    backdrop-filter: blur(10px);
+  }
+
+  .productdesktop > div {
+    width: 50%;
+  }
+  .reviews {
+    position: relative;
+    width: 100%;
+    padding: 60px 48px;
+    border-top: 2px solid white;
+    background-color: rgb(35, 35, 35);
+  }
+
+  .reviewsBackground {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .reviewHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .reviewHeading > h1 {
+    width: 60%;
+    text-align: center;
+    font-size: 70px;
+    line-height: 100%;
+  }
+
+  .reviewHeading > p {
+    font-size: 16px;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+  }
+
+  .reviewHeading > div {
+    background-color: black;
+    padding: 15px 75px;
+    border: 1px solid white;
+    display: flex;
+    gap: 10px;
+  }
+  .reviewGrid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .reviewsSamples {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .reviewsSamples > div {
+    width: 15%;
+  }
+  .reviewsSamples > div:nth-child(1) {
+    position: absolute;
+    top: -20px;
+    right: 24px;
+    transform: rotate(10deg);
+  }
+  .reviewsSamples > div:nth-child(2) {
+    position: absolute;
+    top: 1%;
+    left: 40px;
+    transform: rotate(-10deg);
+  }
+  .reviewsSamples > div:nth-child(3) {
+    position: absolute;
+    top: 32%;
+    left: 100px;
+    transform: rotate(-15deg);
+  }
+  .reviewsSamples > div:nth-child(4) {
+    position: absolute;
+    top: 34%;
+    right: 100px;
+    transform: rotate(40deg);
+  }
+  .reviewsSamples > div:nth-child(5) {
+    position: absolute;
+    top: 15%;
+    right: -175px;
+    transform: rotate(10deg);
+  }
+  .reviewsSamples > div:nth-child(6) {
+    position: absolute;
+    top: 15%;
+    left: -145px;
+    transform: rotate(15deg);
+  }
+}
