@@ -214,8 +214,16 @@ export default function Home() {
         <div className={style.productInfo}>
           <div className={style.productBuffer}></div>
           <div className={style.productInfoSection}>
-            <p style={{ fontSize: "20px", fontWeight: "900" }}>
-              The Fat-Loss Cheat Code—And How to Crack It:
+            <p
+              style={{
+                fontSize: "20px",
+                fontWeight: "900",
+              }}
+            >
+              The Fat-Loss Cheat Code —
+              <span style={{ textDecoration: "underline" }}>
+                And How to Crack It:{" "}
+              </span>
             </p>
             <p style={{ fontStyle: "italic", fontWeight: "700" }}>
               You're doing everything "right"—lifting, cardio, you name it—but
