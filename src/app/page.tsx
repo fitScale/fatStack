@@ -334,7 +334,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
           <div className={style.gaurentee}>
             <div className={style.headlineCopy}>
               <Svg icon="verifiedIcon" color="lime" />
@@ -364,6 +363,7 @@ export default function Home() {
               </span>
             </p>
           </div>
+          <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
         </div>
         <div
           className={style.informationContainer}
