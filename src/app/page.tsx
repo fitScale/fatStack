@@ -191,7 +191,7 @@ export default function Home() {
               {" "}
               YES, CLAIM MY PRODUCTS NOW!
               <br />
-              <span style={{ fontSize: "13px" }}>
+              <span style={{ fontSize: "11px" }}>
                 {" "}
                 Limited Time Price:{" "}
                 <span
