@@ -535,6 +535,7 @@ export default function Home() {
                 <span style={{ fontWeight: "500" }}>
                   With 250mg of caffeine for that unmistakable energy surge and
                   <span style={{ fontWeight: "800" }}>
+                    {" "}
                     50mg of Capsimax® to ignite your metabolism
                   </span>
                   , we're offering a full-spectrum experience.
