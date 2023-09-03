@@ -226,7 +226,7 @@ export default function Home() {
             </p>
             <p style={{ fontStyle: "italic", fontWeight: "700" }}>
               You're doing everything "right"—lifting, cardio, you name it—but
-              that stubborn fat isn't budging. Frustrating, isn't it?
+              that stubborn fat isn't budging. Sound familiar?
             </p>
             <br />
             <p style={{ fontSize: "18px", fontWeight: "900" }}>
@@ -337,7 +337,7 @@ export default function Home() {
           <div className={style.gaurentee}>
             <div className={style.headlineCopy}>
               <Svg icon="verifiedIcon" color="lime" />
-              <p>The Insane ProSupps Gaurentee</p>
+              <p>The Insane ProSupps Guarantee</p>
             </div>
             <p>
               <span style={{ fontWeight: "700", textDecoration: "underline" }}>
@@ -371,20 +371,15 @@ export default function Home() {
         >
           <div>
             <ImageContainer imageContainerConfig={productBackground} />
+            <p>Boost energy by turning fat into fuel.</p>
+            <p>Speed up your post-workout recovery.</p>
           </div>
           <ImageContainer imageContainerConfig={sampleTwo} />
           <div className={style.productInfoSection}>
-            <p>
-              L-Carnitine 3000: Your Secret Weapon for Fat-to-Energy Conversion
-            </p>
+            <p style={{ fontWeight: "900" }}>L-CARNITINE 3000:</p>
             <p style={{ fontWeight: "800", fontStyle: "italic" }}>
               Had enough of energy products that ignore the real issue—stubborn
               fat?
-            </p>
-            <br />
-            <p>
-              Meet ProSupps® L-Carnitine, your next-level weapon for converting
-              fat into the energy you crave.
             </p>
             <div className={`${style.infoBox} ${style.hydeInfo}`}>
               <div>
@@ -393,9 +388,8 @@ export default function Home() {
               </div>
               <p>
                 <span style={{ fontWeight: "500" }}>
-                  This isn't your average energy supplement. ProSupps®
-                  L-Carnitine has been scientifically formulated to convert
-                  fatty acids directly into cellular energy.
+                  ProSupps® L-Carnitine has been scientifically formulated to
+                  convert fatty acids directly into cellular energy.
                   <br />
                   <br />
                   Imagine it as your body's own renewable energy source—
@@ -412,10 +406,6 @@ export default function Home() {
               <span style={{ fontWeight: "500" }}>
                 No more energy solutions that leave you flat before you've even
                 hit your stride.
-                <br />
-                <br />
-                If you're ready to raise the bar on natural energy and recovery,
-                it's time you experienced ProSupps® L-Carnitine.
               </span>
               <br />
               <br />
@@ -426,8 +416,8 @@ export default function Home() {
                   fontStyle: "italic",
                 }}
               >
-                Flip the switch, go beyond the ordinary, and energize your
-                lifts, naturally.
+                Flip the switch, go beyond the ordinary, and energize your lifts
+                to new levels today!
               </span>
             </p>
             <hr style={{ marginTop: "20px" }} />
@@ -442,41 +432,36 @@ export default function Home() {
         >
           <div>
             <ImageContainer imageContainerConfig={productBackground} />
+            <p id={style.words1}>Unleash intense energy for your workout.</p>
+            <p id={style.words2}>Fire up your metabolism to burn more fat.</p>
           </div>
           <ImageContainer imageContainerConfig={sampleThree} />
           <div className={style.productInfoSection}>
-            <p>
-              <span style={{ textDecoration: "underline" }}>SAMPLE #2</span>:
-              HydroBCAA®
-            </p>
+            <p>HYDE® THERMO:</p>
             <p style={{ fontWeight: "800", fontStyle: "italic" }}>
-              If you're reading this, you're probably not just an average
-              gym-goer, but a committed athlete, wayyy too familiar with
-              soreness and fatigue.
+              Typical pres' give you a caffeine buzz but lack a real metabolic
+              kick to give you the edge in weight loss?
               <br />
               <br />
               <span style={{ fontWeight: "500", fontStyle: "normal" }}>
                 {" "}
-                We feel that, and that's exactly why we designed HydroBCAA®.
+                Meet HYDE® Thermo. This isn't just another energy booster; it's
+                a metabolic energizer.
               </span>
             </p>
             <div className={`${style.infoBox} ${style.hydeInfo}`}>
               <div>
                 <Svg icon="ElectricIcon" color="white" />
-                <p>Skyrocket Your Intra-Workout Output</p>
+                <p>Insane Energy Meets Metabolic Mastery</p>
               </div>
               <p>
                 <span style={{ fontWeight: "500" }}>
-                  HydroBCAA® offers a Full Spectrum 10g EAA Matrix that doesn't
-                  just fuel your workout, it launches it into orbit.
+                  Thermo is precisely formulated to elevate your energy levels
+                  while also stoking your metabolic fires.
                   <br />
-                  <br />{" "}
-                  <span
-                    style={{ fontWeight: "800", textDecoration: "underline" }}
-                  >
-                    You'll feel like a machine{" "}
-                  </span>
-                  , conquering each rep with unprecedented intensity.
+                  <br /> With 250mg of caffeine for that unmistakable energy
+                  surge and 50mg of Capsimax® to ignite your metabolism, we're
+                  offering a full-spectrum experience.
                 </span>
                 <br />
                 <br />
@@ -490,9 +475,9 @@ export default function Home() {
             <h3 style={{ marginTop: "20px" }}>Let's Put It Plainly:</h3>{" "}
             <p>
               <span style={{ fontWeight: "500" }}>
-                Stop settling for supplements that don't deliver. HydroBCAA®
-                doesn't just aid in performance and recovery; it sets a new
-                standard for it.
+                If you're done with half-measures and ready for a pre-workout
+                that delivers both energy and enhanced metabolism, HYDE® Thermo
+                is your go-to.
               </span>
               <br />
               <br />
@@ -503,8 +488,8 @@ export default function Home() {
                   fontStyle: "italic",
                 }}
               >
-                Ready to elevate your game? Unleash the power of HydroBCAA®
-                +Essentials today!
+                Maximize Energy, Rev Up Metabolism, and Take Your Workouts to
+                the Next Level. Try Thermo today!
               </span>
             </p>
             <hr style={{ marginTop: "20px" }} />
@@ -513,7 +498,6 @@ export default function Home() {
             </button>
           </div>
         </div>
-
         <div
           style={{ position: "relative", width: "100%", aspectRatio: "4/6.25" }}
         >
@@ -527,7 +511,7 @@ export default function Home() {
               <button className={style.cta}>
                 YES, CLAIM MY FREE PRODUCTS!
               </button>
-              <p>HURRY, STOCK LEVELS ARE RUNNING LOW!</p>
+              <p>HURRY, THIS SALES ENDS SOON</p>
               <div className={style.boxContainer}> {generateBoxes(16)}</div>
             </div>
           </div>
