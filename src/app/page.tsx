@@ -456,8 +456,18 @@ export default function Home() {
             <h3 style={{ marginTop: "20px" }}>The Bottom Line:</h3>{" "}
             <p>
               <span style={{ fontWeight: "500" }}>
-                No more energy solutions that leave you flat before you've even
-                hit your stride.
+                <span
+                  style={{
+                    fontWeight: "700",
+                  }}
+                >
+                  Tired of energy boosters that fizzle out and leave the real
+                  enemy—stubborn fat—untouched?
+                </span>
+                <br />
+                <br />
+                With ProSupps® L-Carnitine, you don't just get a jolt of energy;
+                you turn fat into your own personal fuel source.
               </span>
               <br />
               <br />
@@ -468,8 +478,8 @@ export default function Home() {
                   fontStyle: "italic",
                 }}
               >
-                Flip the switch, go beyond the ordinary, and energize your lifts
-                to new levels today!
+                Unlock your true workout potential and elevate your energy game
+                today!
               </span>
             </p>
             <hr style={{ marginTop: "20px" }} />
@@ -523,12 +533,11 @@ export default function Home() {
               </div>
               <p>
                 <span style={{ fontWeight: "500" }}>
-                  Thermo is precisely formulated to elevate your energy levels
-                  while also stoking your metabolic fires.
-                  <br />
-                  <br /> With 250mg of caffeine for that unmistakable energy
-                  surge and 50mg of Capsimax® to ignite your metabolism, we're
-                  offering a full-spectrum experience.
+                  With 250mg of caffeine for that unmistakable energy surge and
+                  <span style={{ fontWeight: "800" }}>
+                    50mg of Capsimax® to ignite your metabolism
+                  </span>
+                  , we're offering a full-spectrum experience.
                 </span>
                 <br />
                 <br />
