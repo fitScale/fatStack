@@ -573,9 +573,9 @@ export default function Home() {
         >
           <div className={style.banner}>
             <ImageContainer imageContainerConfig={mobileBanner} />
-            <p>LIMITED STOCK AVALIBLE FOR SAMPLES!</p>
-            <p style={{ fontSize: "11px", top: "25%", width: "20%" }}>
-              GET ALL OF THIS FOR FREE, NO COMMITMENT, NO BS.
+            <p>TAKE ACTION AND BOOST YOUR ENERGY TODAY!</p>
+            <p style={{ fontSize: "10px", top: "40%", width: "20%" }}>
+              {"Boost Your Fat-to-Energy Now!".toUpperCase()}
             </p>
             <div>
               <button className={style.cta}>
@@ -619,25 +619,26 @@ export default function Home() {
                     textDecoration: "underline",
                   }}
                 >
-                  {"get your shaker & samples,".toUpperCase()}
+                  {"THIS IS A LIMITED TIME OFFER,".toUpperCase()}
                 </span>
                 <br />
 
-                {"only while supplies last!".toUpperCase()}
+                {"CLAIM YOUR STACK BEFORE IT'S TOO LATE!".toUpperCase()}
               </p>
               <p
                 style={{
                   padding: "0px 20px",
-                  marginTop: "15px",
+                  marginTop: "12px",
                   fontWeight: "500",
                 }}
               >
-                Keep in mind, this isn't a trial or a recurring charge offer.
-                We're confident you'll love it and want to{" "}
+                If you're serious about accelerating your fat-loss journey,
+                don't dilly-dally. Deals like this on our top products come
+                around only a few times a year.{" "}
                 <span
                   style={{ fontWeight: "700", textDecoration: "underline" }}
                 >
-                  give you a glimpse of what you've been missing!
+                  Act fast before the clock runs out!
                 </span>
               </p>
             </div>
