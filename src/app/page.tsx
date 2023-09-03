@@ -707,7 +707,7 @@ export default function Home() {
         >
           <div className={style.ticker}>
             {" "}
-            <p>HURRY, STOCK LEVELS ARE RUNNING LOW!</p>
+            <p>HURRY, THIS SALES ENDS SOON</p>
             <div className={style.boxContainer}> {generateBoxes(16)}</div>
           </div>
           <div className={style.desktopCopyText}>
@@ -961,83 +961,115 @@ export default function Home() {
             </div>
             <div>
               <div className={style.productdesktop}>
-                <ImageContainer imageContainerConfig={sampleTwo} />
+                <ImageContainer
+                  imageContainerConfig={{
+                    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Oneone-min_rwvank.png",
+                    alt: "",
+                    aspectRatio: "1/1",
+                  }}
+                />
                 <div>
-                  <div className={`${style.infoBox} ${style.hydeInfo}`}>
-                    <p>
-                      <span
-                        style={{
-                          fontSize: "17px",
-                          fontWeight: "800",
-                        }}
-                      >
-                        SAMPLE #1 : HYDE NIGHTMARE
-                      </span>
+                  <div className={style.productInfoSection}>
+                    <p style={{ fontWeight: "900" }}>L-CARNITINE 3000:</p>
+                    <p style={{ fontWeight: "800", fontStyle: "italic" }}>
+                      Had enough of energy products that ignore the real
+                      issue—stubborn fat?
                     </p>
-                    <hr />
-                    <div>
-                      <Svg icon="ElectricIcon" color="white" />
-                      <p>Skyrocket Your Intra-Workout Output</p>
+                    <div className={`${style.infoBox} ${style.hydeInfo}`}>
+                      <div>
+                        <Svg icon="ElectricIcon" color="white" />
+                        <p>Fat-to-Energy Alchemy</p>
+                      </div>
+                      <p>
+                        <span style={{ fontWeight: "500" }}>
+                          ProSupps® L-Carnitine has been scientifically
+                          formulated to convert fatty acids directly into
+                          cellular energy.
+                          <br />
+                          <br />
+                          Imagine it as your body's own renewable energy source—
+                          <span style={{ fontWeight: "700" }}>
+                            no sugar, no calories, just pure fat-to-energy
+                            conversion.
+                          </span>
+                        </span>
+                      </p>
                     </div>
+                    <h3 style={{ marginTop: "20px", fontSize: "20px" }}>
+                      The Bottom Line:
+                    </h3>{" "}
                     <p>
                       <span style={{ fontWeight: "500" }}>
-                        HydroBCAA® offers a Full Spectrum 10g EAA Matrix that
-                        doesn't just fuel your workout, it launches it into
-                        orbit.
-                        <br />
-                        <br />{" "}
-                        <span
-                          style={{
-                            fontWeight: "800",
-                            textDecoration: "underline",
-                          }}
-                        >
-                          You'll feel like a machine{" "}
-                        </span>
-                        , conquering each rep with unprecedented intensity.
+                        Stop settling energy boosters that fizzle out and leave
+                        the real enemy—stubborn fat—untouched?
                       </span>
                       <br />
                       <br />
+                      <span
+                        style={{
+                          fontWeight: "800",
+
+                          fontStyle: "italic",
+                        }}
+                      ></span>
                     </p>
-                    <div
-                      className={style.hydeBuffer}
-                      style={{ aspectRatio: "1/0.65" }}
-                    ></div>
                   </div>
                 </div>
               </div>
               <div className={style.productdesktop}>
-                <ImageContainer imageContainerConfig={sampleThree} />
+                <ImageContainer
+                  imageContainerConfig={{
+                    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Testssfasf-min_kkk5df.png",
+                    alt: "",
+                    aspectRatio: "1/1",
+                  }}
+                />
                 <div>
-                  <div className={`${style.infoBox} ${style.hydeInfo}`}>
+                  <div className={style.productInfoSection}>
+                    <p>HYDE® THERMO:</p>
+                    <p style={{ fontWeight: "800", fontStyle: "italic" }}>
+                      {" "}
+                      Meet HYDE® Thermo. This isn't just another energy booster;
+                      it's a metabolic energizer.
+                    </p>
+                    <div className={`${style.infoBox} ${style.hydeInfo}`}>
+                      <div>
+                        <Svg icon="ElectricIcon" color="white" />
+                        <p>Insane Energy Meets Metabolic Mastery</p>
+                      </div>
+                      <p>
+                        <span style={{ fontWeight: "500" }}>
+                          With 250mg of caffeine for that unmistakable energy
+                          surge and
+                          <span style={{ fontWeight: "800" }}>
+                            {" "}
+                            50mg of Capsimax® to ignite your metabolism
+                          </span>
+                          , we're offering a full-spectrum experience.
+                        </span>
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                    <h3 style={{ marginTop: "20px", fontSize: "20px" }}>
+                      Let's Put It Plainly:
+                    </h3>{" "}
                     <p>
+                      <span style={{ fontWeight: "500" }}>
+                        If you're done with half-measures and ready for a
+                        pre-workout that delivers both energy and enhanced
+                        metabolism, HYDE® Thermo is your go-to.
+                      </span>
+                      <br />
+                      <br />
                       <span
                         style={{
-                          fontSize: "17px",
                           fontWeight: "800",
+
+                          fontStyle: "italic",
                         }}
-                      >
-                        SAMPLE #1 : HYDE NIGHTMARE
-                      </span>
+                      ></span>
                     </p>
-                    <hr />
-                    <div>
-                      <Svg icon="FlexIcon" color="white" />
-                      <p>Unleash Muscle Growth</p>
-                    </div>
-                    <p>
-                      Our triple cold-filtered Powder retains all the essential
-                      amino acids and valuable micro-fractions, ensuring your
-                      muscles get the top-grade fuel they deserve.
-                      <br />
-                      <br />
-                      Don't squander your time and effort on subpar proteins
-                      that compromise your goals.
-                    </p>
-                    <div
-                      className={style.hydeBuffer}
-                      style={{ aspectRatio: "1/0.72" }}
-                    ></div>
                   </div>
                 </div>
               </div>
@@ -1054,30 +1086,83 @@ export default function Home() {
         </div>
         <div className={style.reviews}>
           <div className={style.reviewsSamples}>
-            <ImageContainer imageContainerConfig={sampleOne} />
-            <ImageContainer imageContainerConfig={sampleTwo} />
-            <ImageContainer imageContainerConfig={sampleThree} />
-            <ImageContainer imageContainerConfig={sampleTwo} />
-            <ImageContainer imageContainerConfig={sampleThree} />
-            <ImageContainer imageContainerConfig={sampleOne} />
+            <ImageContainer
+              imageContainerConfig={{
+                src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Oneone-min_rwvank.png",
+                alt: "",
+                aspectRatio: "1/1",
+              }}
+            />
+            <ImageContainer
+              imageContainerConfig={{
+                src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Testssfasf-min_kkk5df.png",
+                alt: "",
+                aspectRatio: "1/1",
+              }}
+            />
+            <ImageContainer
+              imageContainerConfig={{
+                src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Oneone-min_rwvank.png",
+                alt: "",
+                aspectRatio: "1/1",
+              }}
+            />
+            <ImageContainer
+              imageContainerConfig={{
+                src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Oneone-min_rwvank.png",
+                alt: "",
+                aspectRatio: "1/1",
+              }}
+            />
+            <ImageContainer
+              imageContainerConfig={{
+                src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Oneone-min_rwvank.png",
+                alt: "",
+                aspectRatio: "1/1",
+              }}
+            />
+            <ImageContainer
+              imageContainerConfig={{
+                src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Testssfasf-min_kkk5df.png",
+                alt: "",
+                aspectRatio: "1/1",
+              }}
+            />
           </div>
           <div className={style.reviewsBackground}></div>
           <div className={style.reviewHeading}>
-            <h1>
-              {"experience why thousands choose us over all others.".toUpperCase()}
+            <h1 style={{ fontSize: "60px" }}>
+              {"Don't just take our word for it—the results speak for themselves!".toUpperCase()}
             </h1>
             <p>
-              Dive into a world of unparalleled quality and performance, and
-              discover why so many trust ProSupps above the rest. Join the
-              movement, feel the difference.
+              We've got a treasure trove of success stories from folks who've
+              used these two products. Scroll down and see for yourself!
             </p>
             <div>
               <Svg icon="verifiedIcon" color="white" size="18px" />
-              <p>1000+ Verified Reviews for Pump Kaps</p>
+              <p>1000+ Verified Reviews for Both Products</p>
             </div>
           </div>
           <div className={style.reviewGrid}>{generateReview(reviews)}</div>
-          <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
+          <button className={style.cta}>
+            {" "}
+            YES, CLAIM MY PRODUCTS NOW!
+            <br />
+            <span style={{ fontSize: "13px" }}>
+              {" "}
+              Limited Time Price:{" "}
+              <span
+                style={{
+                  fontWeight: "600",
+                  color: "lightgrey",
+                  textDecoration: "line-through",
+                }}
+              >
+                $62.00
+              </span>{" "}
+              $39.99
+            </span>
+          </button>
         </div>
         <Footer />
       </main>

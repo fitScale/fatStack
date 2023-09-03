@@ -721,7 +721,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   .reviewsSamples {
     position: absolute;
@@ -748,13 +748,13 @@
   }
   .reviewsSamples > div:nth-child(3) {
     position: absolute;
-    top: 32%;
+    top: 23%;
     left: 100px;
     transform: rotate(-15deg);
   }
   .reviewsSamples > div:nth-child(4) {
     position: absolute;
-    top: 34%;
+    top: 25%;
     right: 100px;
     transform: rotate(40deg);
   }
@@ -767,7 +767,7 @@
   .reviewsSamples > div:nth-child(6) {
     position: absolute;
     top: 15%;
-    left: -145px;
+    left: -160px;
     transform: rotate(15deg);
   }
 }
