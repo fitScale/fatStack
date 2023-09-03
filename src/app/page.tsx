@@ -357,7 +357,6 @@ export default function Home() {
                 fontStyle: "italic",
                 fontWeight: "700",
                 fontSize: "15px",
-                color: "red",
               }}
             >
               <span
@@ -372,6 +371,26 @@ export default function Home() {
               <span style={{ fontWeight: "800" }}>a few times a year.</span>{" "}
               <span style={{ fontWeight: "800", textDecoration: "underline" }}>
                 Act fast before the clock runs out!
+              </span>
+            </p>
+          </div>
+
+          <div className={style.gaurentee} style={{ marginTop: "20px" }}>
+            <div className={style.headlineCopy}>
+              <Svg icon="verifiedIcon" color="lime" />
+              <p>The Insane ProSupps Guarantee</p>
+            </div>
+            <p>
+              <span style={{ fontWeight: "700", textDecoration: "underline" }}>
+                If you don't find yourself absolutely THRILLED with your
+                purchase
+              </span>
+              , ship it back to us within 30 days, and you'll get every single
+              penny refunded.
+              <br />
+              <br />
+              <span style={{ fontWeight: "800", textDecoration: "underline" }}>
+                No question, no "buts," and absolutely zero BS.
               </span>
             </p>
           </div>
@@ -394,25 +413,6 @@ export default function Home() {
               $39.99
             </span>
           </button>
-          <div className={style.gaurentee} style={{ marginTop: "20px" }}>
-            <div className={style.headlineCopy}>
-              <Svg icon="verifiedIcon" color="lime" />
-              <p>The Insane ProSupps Guarantee</p>
-            </div>
-            <p>
-              <span style={{ fontWeight: "700", textDecoration: "underline" }}>
-                If you don't find yourself absolutely THRILLED with your
-                purchase
-              </span>
-              , ship it back to us within 30 days, and you'll get every single
-              penny refunded.
-              <br />
-              <br />
-              <span style={{ fontWeight: "800", textDecoration: "underline" }}>
-                No question, no "buts," and absolutely zero BS.
-              </span>
-            </p>
-          </div>
         </div>
         <div
           className={style.informationContainer}
