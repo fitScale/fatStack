@@ -303,6 +303,7 @@ export default function Home() {
               Infused with Capsimax® to turbocharge your metabolism into
               overdrive and fortified with caffeine and Vitamin B-12 for
               <span style={{ textDecoration: "underline", fontWeight: "700" }}>
+                {" "}
                 razor-sharp focus and powerful energy.
               </span>
               <br />
@@ -347,7 +348,7 @@ export default function Home() {
               </div>
               <p>
                 Think effective means compromising on taste? Think again. Our
-                flavors are so sinfully good, you'll mistake your shake for a
+                flavors are so sinfully good, you'll mistake your drink for a
                 cheat meal.
               </p>
             </div>
