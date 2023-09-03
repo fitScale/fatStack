@@ -187,7 +187,25 @@ export default function Home() {
           </p>
           <p>ENHANCES FAT TO ENERGY CONVERSION!</p>
           <div>
-            <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
+            <button className={style.cta}>
+              {" "}
+              YES, CLAIM MY PRODUCTS NOW!
+              <br />
+              <span style={{ fontSize: "13px" }}>
+                {" "}
+                Limited Time Price:{" "}
+                <span
+                  style={{
+                    fontWeight: "600",
+                    color: "lightgrey",
+                    textDecoration: "line-through",
+                  }}
+                >
+                  $62.00
+                </span>{" "}
+                $39.99
+              </span>
+            </button>
             <p>HURRY, THIS SALE ENDS SOON!</p>
             <div className={style.boxContainer}> {generateBoxes(16)}</div>
           </div>
@@ -363,7 +381,25 @@ export default function Home() {
               </span>
             </p>
           </div>
-          <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
+          <button className={style.cta}>
+            {" "}
+            YES, CLAIM MY PRODUCTS NOW!
+            <br />
+            <span style={{ fontSize: "13px" }}>
+              {" "}
+              Limited Time Price:{" "}
+              <span
+                style={{
+                  fontWeight: "600",
+                  color: "lightgrey",
+                  textDecoration: "line-through",
+                }}
+              >
+                $62.00
+              </span>{" "}
+              $39.99
+            </span>
+          </button>
         </div>
         <div
           className={style.informationContainer}
@@ -425,7 +461,22 @@ export default function Home() {
             </p>
             <hr style={{ marginTop: "20px" }} />
             <button className={style.cta} style={{ marginTop: "20px" }}>
-              YES, CLAIM MY FREE PRODUCTS!
+              YES, CLAIM MY PRODUCTS NOW!
+              <br />
+              <span style={{ fontSize: "13px" }}>
+                {" "}
+                Limited Time Price:{" "}
+                <span
+                  style={{
+                    fontWeight: "600",
+                    color: "lightgrey",
+                    textDecoration: "line-through",
+                  }}
+                >
+                  $62.00
+                </span>{" "}
+                $39.99
+              </span>
             </button>
           </div>
         </div>
@@ -497,7 +548,22 @@ export default function Home() {
             </p>
             <hr style={{ marginTop: "20px" }} />
             <button className={style.cta} style={{ marginTop: "20px" }}>
-              YES, CLAIM MY FREE PRODUCTS!
+              YES, CLAIM MY PRODUCTS NOW!
+              <br />
+              <span style={{ fontSize: "13px" }}>
+                {" "}
+                Limited Time Price:{" "}
+                <span
+                  style={{
+                    fontWeight: "600",
+                    color: "lightgrey",
+                    textDecoration: "line-through",
+                  }}
+                >
+                  $62.00
+                </span>{" "}
+                $39.99
+              </span>
             </button>
           </div>
         </div>
@@ -512,7 +578,22 @@ export default function Home() {
             </p>
             <div>
               <button className={style.cta}>
-                YES, CLAIM MY FREE PRODUCTS!
+                YES, CLAIM MY PRODUCTS NOW!
+                <br />
+                <span style={{ fontSize: "13px" }}>
+                  {" "}
+                  Limited Time Price:{" "}
+                  <span
+                    style={{
+                      fontWeight: "600",
+                      color: "lightgrey",
+                      textDecoration: "line-through",
+                    }}
+                  >
+                    $62.00
+                  </span>{" "}
+                  $39.99
+                </span>
               </button>
               <p>HURRY, THIS SALES ENDS SOON</p>
               <div className={style.boxContainer}> {generateBoxes(16)}</div>
@@ -576,8 +657,26 @@ export default function Home() {
           <UserReviewSlider userReviewSliderConfig={{ reviews: reviews }} />
           <ValuesGrid valuesGridConfig={valuesGridConfig} />
         </div>
-        <div style={{ padding: "0px 24px" }}>
-          <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
+        <div style={{ padding: "0px 24px", marginBottom: "40px" }}>
+          <button className={style.cta}>
+            {" "}
+            YES, CLAIM MY PRODUCTS NOW!
+            <br />
+            <span style={{ fontSize: "13px" }}>
+              {" "}
+              Limited Time Price:{" "}
+              <span
+                style={{
+                  fontWeight: "600",
+                  color: "lightgrey",
+                  textDecoration: "line-through",
+                }}
+              >
+                $62.00
+              </span>{" "}
+              $39.99
+            </span>
+          </button>
         </div>
         <Footer />
       </main>
