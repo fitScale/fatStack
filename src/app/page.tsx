@@ -42,13 +42,13 @@ export default function Home() {
     aspectRatio: "2414/1357",
   };
   const hydeBanner: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693701927/ProSupps/productImages/Lighni_gda227.jpg",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693703566/ProSupps/productImages/Thelast_in3ylq.jpg",
     alt: "",
     aspectRatio: "2/1.75",
   };
 
   const hydroBanner: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693701927/ProSupps/productImages/Lighni_gda227.jpg",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693703565/ProSupps/productImages/HydeFinal_qtbz6n.jpg",
     alt: "",
     aspectRatio: "2/1.75",
   };
@@ -471,7 +471,7 @@ export default function Home() {
               </p>
               <div
                 className={style.hydeBuffer}
-                style={{ aspectRatio: "1/0.7" }}
+                style={{ aspectRatio: "1/0.6" }}
               ></div>
               <ImageContainer imageContainerConfig={hydroBanner} />
             </div>
