@@ -37,7 +37,7 @@ export default function Home() {
   };
 
   const desktopBanner: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693539561/ProSupps/banners/Tewst22_gqz5nl.jpg",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693718384/ProSupps/banners/TheLiteralfinal_fplruu.jpg",
     alt: "",
     aspectRatio: "2414/1357",
   };
@@ -214,7 +214,7 @@ export default function Home() {
           <div>
             <p>LIMITED TIME OFFER, GET</p>
             <h1>THE ULTIMATE FAT BURNING DUO</h1>
-            <p>
+            <p style={{ fontWeight: "800" }}>
               AT A WHOPPING{" "}
               <span style={{ textDecoration: "underline" }}>25% DISCOUNT</span>
             </p>
@@ -260,7 +260,7 @@ export default function Home() {
               <br />
               <br />
               To make matters worse, slow recovery times make maintaining a
-              consistent routine challenging
+              consistent routine challenging.
               <br />
               <br />
               Trust us, we've all been there and it sucks...
@@ -711,47 +711,65 @@ export default function Home() {
             <div className={style.boxContainer}> {generateBoxes(16)}</div>
           </div>
           <div className={style.desktopCopyText}>
-            <p>ONLY WHILE SUPPLIES LAST, GET</p>
-            <h1>FREE SAMPLES</h1>
+            <p>FOR A LIMITED TIME ONLY, GET</p>
+            <h1 style={{ fontSize: "112px", marginTop: "12px" }}>
+              THE ULTIMATE FAT BURNING DUO
+            </h1>
             <p>
-              AND A <span style={{ textDecoration: "underline" }}>FREE</span>{" "}
-              SHAKER BOTTLE
+              AT A WHOPPING{" "}
+              <span style={{ textDecoration: "underline" }}>25% DISCOUNT</span>
             </p>
             <div className={style.infoBox} style={{ marginTop: "20px" }}>
               <div>
-                <Svg icon="verifiedIcon" color="white" />
-                <p>Science-Backed Ingredients.</p>
+                <Svg icon="ElectricIcon" color="white" />
+                <p>HYDE® Thermo:</p>
               </div>
               <p>
-                Forget about diluted blends and shady labels. At ProSupps, we go
-                all-in with potent, science-backed ingredients in full clinical
-                doses — we don't cut any corners!
+                Infused with Capsimax® to turbocharge your metabolism into
+                overdrive and fortified with caffeine and Vitamin B-12 for
+                <span
+                  style={{ textDecoration: "underline", fontWeight: "700" }}
+                >
+                  {" "}
+                  razor-sharp focus and powerful energy.
+                </span>
               </p>
             </div>
             <div className={style.infoBox}>
               <div>
                 <Svg icon="FireIcon" color="white" />
-                <p>Beyond Delicious Flavors!</p>
+                <p>L-CARNITINE 3000:</p>
               </div>
               <p>
-                Think effective means compromising on taste? Think again. Our
-                flavors are so sinfully good, you'll mistake your drink for a
-                cheat meal.
+                With its power-packed L-Carnitine and Pantothenic Acid, this
+                formula not only helps{" "}
+                <span
+                  style={{ textDecoration: "underline", fontWeight: "700" }}
+                >
+                  support your body's natural ability to convert fat into energy
+                </span>
+                , but also promotes faster exercise recovery.
               </p>
             </div>
-            <button className={style.cta}>YES, CLAIM MY FREE PRODUCTS!</button>
-            <p className={style.handle}>( JUST COVER S&H )*</p>
-            <p className={style.four}>
-              GET 4 OF OUR BEST-SELLERS{" "}
-              <span style={{ textDecoration: "underline" }}>FOR FREE!</span>
-            </p>
-            <p className={style.five}>
-              TOTAL VALUE:{" "}
-              <span style={{ textDecoration: "line-through", color: "grey" }}>
-                $21.72
-              </span>{" "}
-              FREE
-            </p>
+            <button className={style.cta}>
+              {" "}
+              YES, CLAIM MY PRODUCTS NOW!
+              <br />
+              <span style={{ fontSize: "11px" }}>
+                {" "}
+                Limited Time Price:{" "}
+                <span
+                  style={{
+                    fontWeight: "600",
+                    color: "lightgrey",
+                    textDecoration: "line-through",
+                  }}
+                >
+                  $62.00
+                </span>{" "}
+                $39.99
+              </span>
+            </button>
           </div>
         </div>
         <div className={style.slider}>
@@ -765,165 +783,183 @@ export default function Home() {
         <div className={style.productInfosection}>
           <div className={style.grid}>
             <div className={style.grid1}>
-              <h2>Fuel Every Aspect of Your Workout...</h2>
-
-              <div
-                className={style.productInfoSection}
-                style={{ marginTop: "40px", zIndex: "1" }}
-              >
-                <p>Master Every Workout Stage... FOR FREE!</p>
-                <p style={{ fontWeight: "800", fontStyle: "italic" }}>
-                  From the motivation to start, the endurance to push through,
-                  to the nutrition for recovery — we've got your back.
+              <div className={style.productInfoSection}>
+                <p style={{ fontSize: "44px", fontWeight: "900" }}>
+                  The Fat-Loss Cheat Code—And How to Crack It:
                 </p>
-                <div className={`${style.infoBox} ${style.hydeInfo}`}>
-                  <p>
-                    <span style={{ fontWeight: "800" }}>
-                      Here's what you'll be getting:
-                    </span>
-                    <br />
-                    <br />✅ Hyde Nigtmare: ( Pre ) —{" "}
-                    <span
-                      style={{
-                        textDecoration: "line-through",
-                        color: "lightGrey",
-                      }}
-                    >
-                      $2.99
-                    </span>{" "}
-                    FREE
-                    <br />
-                    <br />✅ HydroBCAA: ( Intra ) —{" "}
-                    <span
-                      style={{
-                        textDecoration: "line-through",
-                        color: "lightGrey",
-                      }}
-                    >
-                      $2.99
-                    </span>{" "}
-                    FREE
-                    <br />
-                    <br />✅ Whey Isolate: ( Post ) —{" "}
-                    <span
-                      style={{
-                        textDecoration: "line-through",
-                        color: "lightGrey",
-                      }}
-                    >
-                      $2.99
-                    </span>{" "}
-                    FREE
-                    <br />
-                    <br />
-                    And here's the cherry on top—we're throwing in our premium
-                    shaker at no extra cost. Yes, you heard that right... FREE!
-                    <br />
-                    <br />✅ Premium Shaker —{" "}
-                    <span
-                      style={{
-                        textDecoration: "line-through",
-                        color: "lightGrey",
-                      }}
-                    >
-                      $12.99
-                    </span>{" "}
-                    FREE
-                    <br />
-                    <br />
-                    —
-                    <br />
-                    <span
-                      style={{
-                        fontWeight: "800",
+                <p style={{ fontStyle: "italic", fontWeight: "700" }}>
+                  You're doing everything "right"—lifting, cardio, you name
+                  it—but that stubborn fat isn't budging. Sound familiar?
+                </p>
+                <br />
+                <p style={{ fontSize: "27px", fontWeight: "900" }}>
+                  The Big 'Fat' Problem...
+                </p>
+                <br />
+                <p style={{ fontWeight: "300" }}>
+                  The problem for most people is that they become so drained
+                  halfway through their workouts that they{" "}
+                  <span
+                    style={{ textDecoration: "underline", fontWeight: "500" }}
+                  >
+                    can't break through that pesky 'barrier' to burn off the
+                    fat.
+                  </span>
+                  <br />
+                  <br />
+                  To make matters worse, slow recovery times make maintaining a
+                  consistent routine challenging.
+                  <br />
+                  <br />
+                  Trust us, we've all been there and it sucks...
+                  <br />
+                  <br />
+                  <span
+                    style={{
+                      fontStyle: "italic",
+                      fontWeight: "800",
+                      fontSize: "16px",
+                    }}
+                  >
+                    ❌ Barrier #1: Fat is a stubborn foe that takes a ton of
+                    energy to burn.
+                  </span>
+                  <br />
+                  <br />
+                  <span
+                    style={{
+                      fontStyle: "italic",
+                      fontWeight: "800",
+                      fontSize: "16px",
+                    }}
+                  >
+                    ❌ Barrier #2: Slow recovery is killing your consistency and
+                    your spirit.
+                  </span>
+                  <br />
+                  <br />
+                </p>
+                <hr />
+                <br />
+                <p style={{ fontSize: "26px", fontWeight: "900" }}>
+                  How to Obliterate These Barriers With Ease...
+                </p>
+                <br />
+                <p style={{ fontWeight: "300" }}>
+                  <span style={{ fontStyle: "italic", fontWeight: "800" }}>
+                    {" "}
+                    Drumroll, please...
+                  </span>{" "}
+                  Meet the dynamic duo your fat-loss journey has been crying out
+                  for:
+                  <br />
+                  <br />
+                  <span style={{ fontStyle: "italic", fontWeight: "800" }}>
+                    {" "}
+                    ✅ HYDE® Thermo:
+                  </span>
+                  <br />
+                  <br />
+                  Infused with Capsimax® to turbocharge your metabolism into
+                  overdrive and fortified with caffeine and Vitamin B-12 for
+                  <span
+                    style={{ textDecoration: "underline", fontWeight: "600" }}
+                  >
+                    {" "}
+                    razor-sharp focus and powerful energy.
+                  </span>
+                  <br />
+                  <br />{" "}
+                  <span style={{ fontStyle: "italic", fontWeight: "800" }}>
+                    ✅ L-CARNITINE 3000:
+                  </span>
+                  <br />
+                  <br />
+                  With its power-packed L-Carnitine and Pantothenic Acid, this
+                  formula not only helps{" "}
+                  <span
+                    style={{ textDecoration: "underline", fontWeight: "600" }}
+                  >
+                    support your body's natural ability to convert fat into
+                    energy
+                  </span>
+                  , but also promotes faster exercise recovery.
+                </p>
+                <br />
+                <hr />
 
-                        fontStyle: "italic",
-                      }}
+                <br />
+                <p
+                  style={{
+                    fontStyle: "italic",
+                    fontWeight: "700",
+                    fontSize: "15px",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: "17px",
+                      fontWeight: "900",
+                    }}
+                  >
+                    WARNING:{" "}
+                  </span>{" "}
+                  Deals like this on our top products come around only{" "}
+                  <span style={{ fontWeight: "800" }}>a few times a year.</span>{" "}
+                  <span
+                    style={{ fontWeight: "800", textDecoration: "underline" }}
+                  >
+                    Act fast before the clock runs out!
+                  </span>
+                </p>
+                <div
+                  className={style.gaurentee}
+                  style={{ marginTop: "20px", marginBottom: "20px" }}
+                >
+                  <div className={style.headlineCopy}>
+                    <Svg icon="verifiedIcon" color="lime" />
+                    <p>The Insane ProSupps Guarantee</p>
+                  </div>
+                  <p>
+                    <span
+                      style={{ fontWeight: "700", textDecoration: "underline" }}
                     >
-                      Act fast, because this deal is as hot as they come. We
-                      have limited stock for all items; once we are out, we are
-                      out!
+                      If you don't find yourself absolutely THRILLED with your
+                      purchase
                     </span>
+                    , ship it back to us within 30 days, and you'll get every
+                    single penny refunded.
                     <br />
                     <br />
+                    <span
+                      style={{ fontWeight: "800", textDecoration: "underline" }}
+                    >
+                      No question, no "buts," and absolutely zero BS.
+                    </span>
                   </p>
                 </div>
-
-                <button className={style.cta} style={{ marginTop: "20px" }}>
-                  YES, CLAIM MY FREE PRODUCTS!
+                <button className={style.cta}>
+                  {" "}
+                  YES, CLAIM MY PRODUCTS NOW!
+                  <br />
+                  <span style={{ fontSize: "13px" }}>
+                    {" "}
+                    Limited Time Price:{" "}
+                    <span
+                      style={{
+                        fontWeight: "600",
+                        color: "lightgrey",
+                        textDecoration: "line-through",
+                      }}
+                    >
+                      $62.00
+                    </span>{" "}
+                    $39.99
+                  </span>
                 </button>
               </div>
-              <div className={style.desktopInfoCopy}>
-                <p>PRE-WORKOUT</p>
-                <p>POST-WORKOUT</p>
-                <p>INTRA-WORKOUT</p>
-              </div>
-              <img
-                src="https://res.cloudinary.com/dod9nbjke/image/upload/v1693550188/ProSupps/banners/TheBest-min_kiuhj5.png"
-                style={{
-                  width: "90%",
-                  position: "absolute",
-                  top: "8%",
-                  zIndex: "0",
-                  left: "50%",
-                  transform: "translateX(-50%)",
-                }}
-              />
             </div>
             <div>
-              <div className={style.productdesktop}>
-                <ImageContainer imageContainerConfig={sampleOne} />
-                <div>
-                  <div className={`${style.infoBox} ${style.hydeInfo}`}>
-                    <p>
-                      <span
-                        style={{
-                          fontSize: "17px",
-                          fontWeight: "800",
-                        }}
-                      >
-                        SAMPLE #1 : HYDE NIGHTMARE
-                      </span>
-                    </p>
-                    <hr />
-                    <div>
-                      <Svg icon="ElectricIcon" color="white" />
-                      <p>Off-the-Charts Energy</p>
-                    </div>
-                    <p>
-                      <span style={{ fontWeight: "500" }}>
-                        HYDE brings you a cocktail of clinically validated
-                        ingredients that'll make you feel like you've been
-                        plugged directly into a power outlet —
-                        <span style={{ fontWeight: "700" }}>
-                          NOT Exaggerating!
-                        </span>
-                      </span>
-                      <br />
-                      <br />
-                      <span
-                        style={{
-                          textShadow: "0px 0px 10px black",
-                          fontWeight: "700",
-                        }}
-                      >
-                        Trust us, we don't call it{" "}
-                        <span
-                          style={{
-                            fontWeight: "900",
-
-                            fontStyle: "italic",
-                          }}
-                        >
-                          'Nightmare'
-                        </span>{" "}
-                        for nothing.
-                      </span>
-                    </p>
-                    <div className={style.hydeBuffer}></div>
-                  </div>
-                </div>
-              </div>
               <div className={style.productdesktop}>
                 <ImageContainer imageContainerConfig={sampleTwo} />
                 <div>
