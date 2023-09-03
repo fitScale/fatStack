@@ -216,7 +216,7 @@ export default function Home() {
             <h1>THE ULTIMATE FAT BURNING DUO</h1>
             <p style={{ fontWeight: "800" }}>
               AT A WHOPPING{" "}
-              <span style={{ textDecoration: "underline" }}>25% DISCOUNT</span>
+              <span style={{ textDecoration: "underline" }}>35% DISCOUNT</span>
             </p>
           </div>
         </div>
@@ -717,7 +717,7 @@ export default function Home() {
             </h1>
             <p>
               AT A WHOPPING{" "}
-              <span style={{ textDecoration: "underline" }}>25% DISCOUNT</span>
+              <span style={{ textDecoration: "underline" }}>35% DISCOUNT</span>
             </p>
             <div className={style.infoBox} style={{ marginTop: "20px" }}>
               <div>

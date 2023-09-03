@@ -24,9 +24,8 @@ const archivo = Archivo({ subsets: ["latin"], variable: "--archivo" });
 const inter = Inter({ subsets: ["latin"], variable: "--inter" });
 
 export const metadata = {
-  title: "  PROSUPPS - FREE SAMPLES + SHAKER",
-  description:
-    "Limited time only! Get FREE samples & shaker, when you buy any pre-workout!",
+  title: "PROSUPPS - 35% OFF THE FAT LOSS STACK",
+  description: "Limited time only! 35% OFF THE FAT LOSS STACK",
   themeColor: "black",
 };
 
