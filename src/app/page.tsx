@@ -42,13 +42,13 @@ export default function Home() {
     aspectRatio: "2414/1357",
   };
   const hydeBanner: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693452712/ProSupps/banners/Hyde2_axdmnq.jpg",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693701927/ProSupps/productImages/Lighni_gda227.jpg",
     alt: "",
     aspectRatio: "2/1.75",
   };
 
   const hydroBanner: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693512212/ProSupps/banners/Bcaas_ewo9ub.jpg",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693701927/ProSupps/productImages/Lighni_gda227.jpg",
     alt: "",
     aspectRatio: "2/1.75",
   };
@@ -114,7 +114,7 @@ export default function Home() {
   };
 
   const sampleThree: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693695911/11f-min_bazo5f.png",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693701237/ProSupps/productImages/hyde2-min_anl4cu.png",
     alt: "",
     aspectRatio: "1080/811",
   };
@@ -398,7 +398,10 @@ export default function Home() {
                   </span>
                 </span>
               </p>
-              <div className={style.hydeBuffer}></div>
+              <div
+                className={style.hydeBuffer}
+                style={{ aspectRatio: "1/.77" }}
+              ></div>
               <ImageContainer imageContainerConfig={hydeBanner} />
             </div>
             <h3 style={{ marginTop: "20px" }}>The Bottom Line:</h3>{" "}
@@ -468,7 +471,7 @@ export default function Home() {
               </p>
               <div
                 className={style.hydeBuffer}
-                style={{ aspectRatio: "1/0.65" }}
+                style={{ aspectRatio: "1/0.7" }}
               ></div>
               <ImageContainer imageContainerConfig={hydroBanner} />
             </div>
