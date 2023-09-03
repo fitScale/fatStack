@@ -319,13 +319,6 @@ export default function Home() {
                 support your body's natural ability to convert fat into energy
               </span>
               , but also promotes faster exercise recovery.
-              <br />
-              <br />
-              <span style={{ textDecoration: "underline", fontWeight: "700" }}>
-                So say goodbye to next-day soreness
-              </span>{" "}
-              and fatigue—now you can fuel your workouts to new levels and
-              bounce back ready for more!
             </p>
             <br />
             <hr />
@@ -456,18 +449,8 @@ export default function Home() {
             <h3 style={{ marginTop: "20px" }}>The Bottom Line:</h3>{" "}
             <p>
               <span style={{ fontWeight: "500" }}>
-                <span
-                  style={{
-                    fontWeight: "700",
-                  }}
-                >
-                  Tired of energy boosters that fizzle out and leave the real
-                  enemy—stubborn fat—untouched?
-                </span>
-                <br />
-                <br />
-                With ProSupps® L-Carnitine, you don't just get a jolt of energy;
-                you turn fat into your own personal fuel source.
+                Stop settling energy boosters that fizzle out and leave the real
+                enemy—stubborn fat—untouched?
               </span>
               <br />
               <br />
