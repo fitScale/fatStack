@@ -329,7 +329,6 @@ export default function Home() {
             </p>
             <br />
             <hr />
-
             <div className={style.infoBox} style={{ marginTop: "20px" }}>
               <div>
                 <Svg icon="verifiedIcon" color="white" />
@@ -352,6 +351,24 @@ export default function Home() {
                 cheat meal.
               </p>
             </div>
+            <br />
+            <p
+              style={{
+                fontStyle: "italic",
+                fontWeight: "700",
+                fontSize: "15px",
+                color: "red",
+              }}
+            >
+              <span style={{ fontSize: "17px", fontWeight: "900" }}>
+                WARNING:{" "}
+              </span>{" "}
+              Deals like this on our top products come around only{" "}
+              <span style={{ fontWeight: "900" }}>a few times a year.</span>{" "}
+              <span style={{ fontWeight: "900", textDecoration: "underline" }}>
+                Act fast before the clock runs out!
+              </span>
+            </p>
           </div>
           <div className={style.gaurentee}>
             <div className={style.headlineCopy}>
@@ -647,13 +664,12 @@ export default function Home() {
         <div className={style.reviews}>
           <div className={style.socialProof}>
             <h4>
-              {"experience why thousands choose us over all others...".toUpperCase()}
+              {"Don't just take our word for it—the results speak for themselves!".toUpperCase()}
             </h4>
             <p>
               <br />
-              Dive into a world of unparalleled quality and performance, and
-              discover why so many trust ProSupps above the rest. Join the
-              movement, feel the difference.
+              We've got a treasure trove of success stories from folks who've
+              used these two products. Scroll down and see for yourself!
             </p>
           </div>
           <UserReviewSlider userReviewSliderConfig={{ reviews: reviews }} />
@@ -731,7 +747,7 @@ export default function Home() {
               </div>
               <p>
                 Think effective means compromising on taste? Think again. Our
-                flavors are so sinfully good, you'll mistake your shake for a
+                flavors are so sinfully good, you'll mistake your drink for a
                 cheat meal.
               </p>
             </div>
