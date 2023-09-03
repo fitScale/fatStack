@@ -360,42 +360,18 @@ export default function Home() {
                 color: "red",
               }}
             >
-              <span style={{ fontSize: "17px", fontWeight: "900" }}>
+              <span
+                style={{
+                  fontSize: "17px",
+                  fontWeight: "900",
+                }}
+              >
                 WARNING:{" "}
               </span>{" "}
               Deals like this on our top products come around only{" "}
-              <span style={{ fontWeight: "900" }}>a few times a year.</span>{" "}
-              <span style={{ fontWeight: "900", textDecoration: "underline" }}>
-                Act fast before the clock runs out!
-              </span>
-            </p>
-          </div>
-          <div className={style.gaurentee}>
-            <div className={style.headlineCopy}>
-              <Svg icon="verifiedIcon" color="lime" />
-              <p>The Insane ProSupps Guarantee</p>
-            </div>
-            <p>
-              <span style={{ fontWeight: "700", textDecoration: "underline" }}>
-                If you don't find yourself absolutely THRILLED with your
-                purchase
-              </span>
-              , ship it back to us within 30 days, and you'll get every single
-              penny refunded.
-              <br />
-              <br />
+              <span style={{ fontWeight: "800" }}>a few times a year.</span>{" "}
               <span style={{ fontWeight: "800", textDecoration: "underline" }}>
-                No question, no "buts," and absolutely zero BS.
-              </span>
-              <br />
-              <br />
-              <span style={{ fontWeight: "400" }}>
-                <span style={{ fontWeight: "700" }}>
-                  We offer a guarantee like this only because we're THAT
-                  confident you'll love it
-                </span>
-                , and we truly believe these products will truly assist you on
-                your weight loss journey.
+                Act fast before the clock runs out!
               </span>
             </p>
           </div>
@@ -418,6 +394,25 @@ export default function Home() {
               $39.99
             </span>
           </button>
+          <div className={style.gaurentee} style={{ marginTop: "20px" }}>
+            <div className={style.headlineCopy}>
+              <Svg icon="verifiedIcon" color="lime" />
+              <p>The Insane ProSupps Guarantee</p>
+            </div>
+            <p>
+              <span style={{ fontWeight: "700", textDecoration: "underline" }}>
+                If you don't find yourself absolutely THRILLED with your
+                purchase
+              </span>
+              , ship it back to us within 30 days, and you'll get every single
+              penny refunded.
+              <br />
+              <br />
+              <span style={{ fontWeight: "800", textDecoration: "underline" }}>
+                No question, no "buts," and absolutely zero BS.
+              </span>
+            </p>
+          </div>
         </div>
         <div
           className={style.informationContainer}
