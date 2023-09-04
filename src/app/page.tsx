@@ -449,8 +449,8 @@ export default function Home() {
             <h3 style={{ marginTop: "20px" }}>The Bottom Line:</h3>{" "}
             <p>
               <span style={{ fontWeight: "500" }}>
-                Stop settling energy boosters that fizzle out and leave the real
-                enemy—stubborn fat—untouched?
+                Stop settling for energy boosters that fizzle out, and leave the
+                real enemy—stubborn fat—untouched.
               </span>
               <br />
               <br />
@@ -1000,8 +1000,8 @@ export default function Home() {
                     </h3>{" "}
                     <p>
                       <span style={{ fontWeight: "500" }}>
-                        Stop settling energy boosters that fizzle out and leave
-                        the real enemy—stubborn fat—untouched?
+                        Stop settling for energy boosters that fizzle out, and
+                        leave the real enemy—stubborn fat—untouched.
                       </span>
                       <br />
                       <br />
