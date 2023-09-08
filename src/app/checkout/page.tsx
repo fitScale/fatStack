@@ -8,8 +8,17 @@ import { log } from "console";
 import { useEffect, useState } from "react";
 import Svg from "../../../public/svgs/svgComponent/svg.component";
 import Footer from "@/components/Footer/Footer.component";
+import { useMutation } from "@apollo/client";
+import {
+  addCartItemMutation,
+  applyDiscountMutation,
+  createCartMutation,
+} from "@/shopify/graphql/mutations/cart.mutations";
+import { CartClientServices } from "@/shopify/services/client/cart.services.client";
+import { useRouter } from "next/navigation";
 
 export default function Checkout() {
+  const router = useRouter();
   const [carnitine, setCarntine] = useState<string | undefined>();
   const [hyde, setHyde] = useState<string | undefined>();
 
@@ -148,6 +157,36 @@ export default function Checkout() {
     }
   }, [carnitine]);
 
+  const [createCart] = useMutation(createCartMutation);
+  const [addCart] = useMutation(addCartItemMutation);
+  const [discountCode] = useMutation(applyDiscountMutation);
+
+  const checkout = async () => {
+    const cart = await CartClientServices.createCart(createCart, {
+      merchandiseId: hyde!,
+      quantity: 1,
+    });
+
+    console.log(cart);
+
+    const finalCart = await CartClientServices.addCartItem(
+      addCart,
+      createCart,
+      {
+        cartId: cart.cart.id,
+        merchandiseId: carnitine!,
+        quantity: 1,
+      }
+    );
+
+    const discount = await CartClientServices.applyDiscount(discountCode, {
+      cartId: finalCart.cart.id!,
+      codes: ["fat-loss-stack-discount"],
+    });
+
+    router.push(finalCart.cart.checkoutUrl!);
+  };
+
   return (
     <>
       <main className={style.main}>
@@ -234,7 +273,12 @@ export default function Checkout() {
                 </p>
               </div>
             </div>
-            <div className={style.checkout}>
+            <div
+              className={style.checkout}
+              onClick={() => {
+                checkout();
+              }}
+            >
               <p>CHECKOUT NOW!</p>
             </div>
           </div>

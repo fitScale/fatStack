@@ -5,7 +5,7 @@ import { CodegenConfig } from "@graphql-codegen/cli";
 // -- Enter endpoints defined in .env file
 const graphqlEndpoint =
   "https://{store name}.myshopify.com/api/2023-04/graphql.json";
-const storeFrontPrivateKey = "PrivateKey";
+const storeFrontPrivateKey = "";
 
 const config: CodegenConfig = {
   schema: [
