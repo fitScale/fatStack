@@ -193,30 +193,31 @@ export default function Checkout() {
         <div className={style.header}>
           <ImageContainer imageContainerConfig={logo} />
         </div>
-        <div className={style.red}>
-          <Svg icon="DangerIcon" color="red" />
-          <p>
-            WARNING:{" "}
-            <span style={{ fontWeight: "700" }}>THIS OFFER ENDS SOON!</span>
-          </p>
-        </div>
+
         <p className={style.heading}>
           FOLLOW THE INSTRUCTIONS BELOW TO CLAIM YOUR STACK:
         </p>
         <div className={style.flavorBox}>
           <p className={style.one}>1: SELECT YOUR HYDE FLAVOR</p>
-          <ImageContainer imageContainerConfig={hydeImage} />
+
           <p className={style.select}>( TAP TO SELECT )</p>
           {geneateHyde(hydeFlavors)}
         </div>
         <div id="carnitne" className={style.flavorBox}>
           <p className={style.one}>2: SELECT YOUR L-CARNITINE FLAVOR</p>
-          <ImageContainer imageContainerConfig={carnitineImage} />
+
           <p className={style.select}>( TAP TO SELECT )</p>
           {generateCarnitine(carntineFlavors)}
         </div>
         {hyde && carnitine && (
           <div id="review" className={style.reviewContainer}>
+            <div className={style.red}>
+              <Svg icon="DangerIcon" color="red" />
+              <p>
+                WARNING:{" "}
+                <span style={{ fontWeight: "700" }}>THIS OFFER ENDS SOON!</span>
+              </p>
+            </div>
             <p className={style.one}>3: REVIEW YOUR ORDER</p>
             <div className={style.value}>
               <p>HYDE THERMO ( 1 ) ~ Value: $31.99</p>
@@ -257,7 +258,7 @@ export default function Checkout() {
               </div>
               <div className={style.info}>
                 <ImageContainer imageContainerConfig={carnitineImage} />
-                <p>HYPE THERMO</p>
+                <p>L-CARNITINE</p>
                 <p
                   style={{
                     backgroundColor: carntineFlavors.filter((e) => {
