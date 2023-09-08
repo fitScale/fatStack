@@ -16,11 +16,13 @@ import {
 } from "@/shopify/graphql/mutations/cart.mutations";
 import { CartClientServices } from "@/shopify/services/client/cart.services.client";
 import { useRouter } from "next/navigation";
+import CssLoader from "@/components/CssLoader/CssLoader.component";
 
 export default function Checkout() {
   const router = useRouter();
   const [carnitine, setCarntine] = useState<string | undefined>();
   const [hyde, setHyde] = useState<string | undefined>();
+  const [loading, setLoading] = useState(false);
 
   const logo: ImageContainerProps = {
     src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693082667/ProSupps/logos/ProSuppsLogo-dark_yelsda.webp",
@@ -162,6 +164,8 @@ export default function Checkout() {
   const [discountCode] = useMutation(applyDiscountMutation);
 
   const checkout = async () => {
+    setLoading(true);
+
     const cart = await CartClientServices.createCart(createCart, {
       merchandiseId: hyde!,
       quantity: 1,
@@ -190,6 +194,11 @@ export default function Checkout() {
   return (
     <>
       <main className={style.main}>
+        {loading && (
+          <div className={style.spinner}>
+            <CssLoader />
+          </div>
+        )}
         <div className={style.header}>
           <ImageContainer imageContainerConfig={logo} />
         </div>
