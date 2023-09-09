@@ -243,12 +243,9 @@ export default function Checkout() {
             <div className={style.value}>
               <p>HYDE THERMO ( 1 ) ~ Value: $31.99</p>
               <p>L-CARNITINE 3000 ( 1 ) ~ Value: $29.99</p>
-              <p>
-                <span style={{ fontWeight: "800" }}>FREE</span> EXPRESS
-                SHIPPING: ~ Value: $8.67
-              </p>
+
               <p style={{ fontWeight: "700" }} className={style.total}>
-                TOTAL STACK VALUE: $70.65
+                TOTAL STACK VALUE: $62.00
               </p>
               <hr />
               <p
@@ -257,7 +254,7 @@ export default function Checkout() {
               >
                 TODAY'S SPECIAL PRICE: $39.99
               </p>
-              <div className={style.saved}>YOUR JUST SAVED $30.66!</div>
+              <div className={style.saved}>YOUR JUST SAVED $22.01!</div>
             </div>
             <div className={style.review}>
               <div className={style.info}>
