@@ -17,6 +17,7 @@ import UserReview, {
   UserReviewProps,
 } from "@/components/UserReview/UserReview.component";
 import Link from "next/link";
+import va from "@vercel/analytics";
 
 export default function Home() {
   const logo: ImageContainerProps = {
@@ -188,7 +189,12 @@ export default function Home() {
           </p>
           <p>ENHANCES FAT TO ENERGY CONVERSION!† </p>
           <div>
-            <Link href="/checkout">
+            <Link
+              href="/checkout"
+              onClick={() => {
+                va.track("Claim");
+              }}
+            >
               <button className={style.cta}>
                 {" "}
                 YES, CLAIM MY PRODUCTS NOW!
@@ -390,7 +396,12 @@ export default function Home() {
               </span>
             </p>
           </div>
-          <Link href="/checkout">
+          <Link
+            href="/checkout"
+            onClick={() => {
+              va.track("Claim");
+            }}
+          >
             <button className={style.cta}>
               {" "}
               YES, CLAIM MY PRODUCTS NOW!
@@ -471,7 +482,12 @@ export default function Home() {
               </span>
             </p>
             <hr style={{ marginTop: "20px" }} />
-            <Link href="/checkout">
+            <Link
+              href="/checkout"
+              onClick={() => {
+                va.track("Claim");
+              }}
+            >
               <button className={style.cta} style={{ marginTop: "20px" }}>
                 YES, CLAIM MY PRODUCTS NOW!
                 <br />
@@ -560,7 +576,12 @@ export default function Home() {
               </span>
             </p>
             <hr style={{ marginTop: "20px" }} />
-            <Link href="/checkout">
+            <Link
+              href="/checkout"
+              onClick={() => {
+                va.track("Claim");
+              }}
+            >
               <button className={style.cta} style={{ marginTop: "20px" }}>
                 YES, CLAIM MY PRODUCTS NOW!
                 <br />
@@ -592,7 +613,12 @@ export default function Home() {
               {"Boost Your Fat-to-Energy Now!†".toUpperCase()}
             </p>
             <div>
-              <Link href="/checkout">
+              <Link
+                href="/checkout"
+                onClick={() => {
+                  va.track("Claim");
+                }}
+              >
                 <button className={style.cta}>
                   YES, CLAIM MY PRODUCTS NOW!
                   <br />
@@ -675,7 +701,12 @@ export default function Home() {
           <ValuesGrid valuesGridConfig={valuesGridConfig} />
         </div>
         <div style={{ padding: "0px 24px", marginBottom: "40px" }}>
-          <Link href="/checkout">
+          <Link
+            href="/checkout"
+            onClick={() => {
+              va.track("Claim");
+            }}
+          >
             <button className={style.cta}>
               {" "}
               YES, CLAIM MY PRODUCTS NOW!
@@ -764,7 +795,12 @@ export default function Home() {
                 , but also promotes faster exercise recovery.†
               </p>
             </div>
-            <Link href="/checkout">
+            <Link
+              href="/checkout"
+              onClick={() => {
+                va.track("Claim");
+              }}
+            >
               <button className={style.cta}>
                 {" "}
                 YES, CLAIM MY PRODUCTS NOW!
@@ -953,7 +989,12 @@ export default function Home() {
                     </span>
                   </p>
                 </div>
-                <Link href="/checkout">
+                <Link
+                  href="/checkout"
+                  onClick={() => {
+                    va.track("Claim");
+                  }}
+                >
                   <button className={style.cta}>
                     {" "}
                     YES, CLAIM MY PRODUCTS NOW!
@@ -1161,7 +1202,12 @@ export default function Home() {
             </div>
           </div>
           <div className={style.reviewGrid}>{generateReview(reviews)}</div>
-          <Link href="/checkout">
+          <Link
+            href="/checkout"
+            onClick={() => {
+              va.track("Claim");
+            }}
+          >
             <button className={style.cta}>
               {" "}
               YES, CLAIM MY PRODUCTS NOW!

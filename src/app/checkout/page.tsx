@@ -17,6 +17,7 @@ import {
 import { CartClientServices } from "@/shopify/services/client/cart.services.client";
 import { useRouter } from "next/navigation";
 import CssLoader from "@/components/CssLoader/CssLoader.component";
+import va from "@vercel/analytics";
 
 export default function Checkout() {
   const router = useRouter();
@@ -297,6 +298,7 @@ export default function Checkout() {
             <div
               className={style.checkout}
               onClick={() => {
+                va.track("Checkout");
                 checkout();
               }}
             >

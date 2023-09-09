@@ -122,3 +122,6 @@
     filter: brightness(90%);
   }
 }
+
+@media (min-width: 961px) {
+}
