@@ -184,9 +184,9 @@ export default function Home() {
               {" "}
               METABOLISM
             </span>
-            , ENERGY, AND FOCUS.
+            , ENERGY, AND FOCUS.†
           </p>
-          <p>ENHANCES FAT TO ENERGY CONVERSION!</p>
+          <p>ENHANCES FAT TO ENERGY CONVERSION!† </p>
           <div>
             <Link href="/checkout">
               <button className={style.cta}>
@@ -235,9 +235,9 @@ export default function Home() {
         <div className={style.productInfo}>
           <ImageContainer imageContainerConfig={productBanner} />
           <div className={style.prodcutText}>
-            <p>Your Secret Weapon for Fat-to-Energy Conversion!</p>
+            <p>Your Secret Weapon for Fat-to-Energy Conversion!† </p>
             <p></p>
-            <p>Energize and Turbocharge Your Metabolism!</p>
+            <p>Energize and Turbocharge Your Metabolism!† </p>
           </div>
           <h2>Unlock the Secret Weapons for Fat Destruction:</h2>
           <div className={style.productBuffer}></div>
@@ -307,7 +307,7 @@ export default function Home() {
               overdrive and fortified with caffeine and Vitamin B-12 for
               <span style={{ textDecoration: "underline", fontWeight: "700" }}>
                 {" "}
-                razor-sharp focus and powerful energy.
+                razor-sharp focus and powerful energy.†
               </span>
               <br />
               <br />{" "}
@@ -321,7 +321,7 @@ export default function Home() {
               <span style={{ textDecoration: "underline", fontWeight: "700" }}>
                 support your body's natural ability to convert fat into energy
               </span>
-              , but also promotes faster exercise recovery.
+              , but also promotes faster exercise recovery.†
             </p>
             <br />
             <hr />
@@ -418,8 +418,8 @@ export default function Home() {
         >
           <div>
             <ImageContainer imageContainerConfig={productBackground} />
-            <p>Boost energy by turning fat into fuel.</p>
-            <p>Speed up your post-workout recovery.</p>
+            <p>Boost energy by turning fat into fuel.† </p>
+            <p>Speed up your post-workout recovery.† </p>
           </div>
           <ImageContainer imageContainerConfig={sampleTwo} />
           <div className={style.productInfoSection}>
@@ -436,12 +436,12 @@ export default function Home() {
               <p>
                 <span style={{ fontWeight: "500" }}>
                   ProSupps® L-Carnitine has been scientifically formulated to
-                  convert fatty acids directly into cellular energy.
+                  convert fatty acids directly into cellular energy.†
                   <br />
                   <br />
                   Imagine it as your body's own renewable energy source—
                   <span style={{ fontWeight: "700" }}>
-                    no sugar, no calories, just pure fat-to-energy conversion.
+                    no sugar, no calories, just pure fat-to-energy conversion.†
                   </span>
                 </span>
               </p>
@@ -499,8 +499,8 @@ export default function Home() {
         >
           <div>
             <ImageContainer imageContainerConfig={productBackground} />
-            <p id={style.words1}>Unleash intense energy for your workout.</p>
-            <p id={style.words2}>Fire up your metabolism to burn more fat.</p>
+            <p id={style.words1}>Unleash intense energy for your workout.† </p>
+            <p id={style.words2}>Fire up your metabolism to burn more fat.† </p>
           </div>
           <ImageContainer imageContainerConfig={sampleThree} />
           <div className={style.productInfoSection}>
@@ -513,13 +513,13 @@ export default function Home() {
               <span style={{ fontWeight: "500", fontStyle: "normal" }}>
                 {" "}
                 Meet HYDE® Thermo. This isn't just another energy booster; it's
-                a metabolic energizer.
+                a metabolic energizer.†
               </span>
             </p>
             <div className={`${style.infoBox} ${style.hydeInfo}`}>
               <div>
                 <Svg icon="ElectricIcon" color="white" />
-                <p>Insane Energy Meets Metabolic Mastery</p>
+                <p>Insane Energy Meets Metabolic Mastery†</p>
               </div>
               <p>
                 <span style={{ fontWeight: "500" }}>
@@ -528,7 +528,7 @@ export default function Home() {
                     {" "}
                     50mg of Capsimax® to ignite your metabolism
                   </span>
-                  , we're offering a full-spectrum experience.
+                  , we're offering a full-spectrum experience.†
                 </span>
                 <br />
                 <br />
@@ -544,7 +544,7 @@ export default function Home() {
               <span style={{ fontWeight: "500" }}>
                 If you're done with half-measures and ready for a pre-workout
                 that delivers both energy and enhanced metabolism, HYDE® Thermo
-                is your go-to.
+                is your go-to.†
               </span>
               <br />
               <br />
@@ -556,7 +556,7 @@ export default function Home() {
                 }}
               >
                 Maximize Energy, Rev Up Metabolism, and Take Your Workouts to
-                the Next Level. Try Thermo today!
+                the Next Level. Try Thermo today!†
               </span>
             </p>
             <hr style={{ marginTop: "20px" }} />
@@ -587,9 +587,9 @@ export default function Home() {
         >
           <div className={style.banner}>
             <ImageContainer imageContainerConfig={mobileBanner} />
-            <p>TAKE ACTION AND BOOST YOUR ENERGY TODAY!</p>
+            <p>TAKE ACTION AND BOOST YOUR ENERGY TODAY!† </p>
             <p style={{ fontSize: "10px", top: "40%", width: "20%" }}>
-              {"Boost Your Fat-to-Energy Now!".toUpperCase()}
+              {"Boost Your Fat-to-Energy Now!†".toUpperCase()}
             </p>
             <div>
               <Link href="/checkout">
@@ -650,7 +650,7 @@ export default function Home() {
               >
                 If you're serious about accelerating your fat-loss journey,
                 don't dilly-dally. Deals like this on our top products come
-                around only a few times a year.{" "}
+                around only a few times a year.
                 <span
                   style={{ fontWeight: "700", textDecoration: "underline" }}
                 >
@@ -744,7 +744,7 @@ export default function Home() {
                   style={{ textDecoration: "underline", fontWeight: "700" }}
                 >
                   {" "}
-                  razor-sharp focus and powerful energy.
+                  razor-sharp focus and powerful energy.†
                 </span>
               </p>
             </div>
@@ -761,7 +761,7 @@ export default function Home() {
                 >
                   support your body's natural ability to convert fat into energy
                 </span>
-                , but also promotes faster exercise recovery.
+                , but also promotes faster exercise recovery.†
               </p>
             </div>
             <Link href="/checkout">
@@ -881,7 +881,7 @@ export default function Home() {
                     style={{ textDecoration: "underline", fontWeight: "600" }}
                   >
                     {" "}
-                    razor-sharp focus and powerful energy.
+                    razor-sharp focus and powerful energy.†
                   </span>
                   <br />
                   <br />{" "}
@@ -898,7 +898,7 @@ export default function Home() {
                     support your body's natural ability to convert fat into
                     energy
                   </span>
-                  , but also promotes faster exercise recovery.
+                  , but also promotes faster exercise recovery.†
                 </p>
                 <br />
                 <hr />
@@ -1001,13 +1001,13 @@ export default function Home() {
                         <span style={{ fontWeight: "500" }}>
                           ProSupps® L-Carnitine has been scientifically
                           formulated to convert fatty acids directly into
-                          cellular energy.
+                          cellular energy.†
                           <br />
                           <br />
                           Imagine it as your body's own renewable energy source—
                           <span style={{ fontWeight: "700" }}>
                             no sugar, no calories, just pure fat-to-energy
-                            conversion.
+                            conversion.†
                           </span>
                         </span>
                       </p>
@@ -1047,12 +1047,12 @@ export default function Home() {
                     <p style={{ fontWeight: "800", fontStyle: "italic" }}>
                       {" "}
                       Meet HYDE® Thermo. This isn't just another energy booster;
-                      it's a metabolic energizer.
+                      it's a metabolic energizer.†
                     </p>
                     <div className={`${style.infoBox} ${style.hydeInfo}`}>
                       <div>
                         <Svg icon="ElectricIcon" color="white" />
-                        <p>Insane Energy Meets Metabolic Mastery</p>
+                        <p>Insane Energy Meets Metabolic Mastery† </p>
                       </div>
                       <p>
                         <span style={{ fontWeight: "500" }}>
@@ -1062,7 +1062,7 @@ export default function Home() {
                             {" "}
                             50mg of Capsimax® to ignite your metabolism
                           </span>
-                          , we're offering a full-spectrum experience.
+                          , we're offering a full-spectrum experience.†
                         </span>
                         <br />
                         <br />
@@ -1075,7 +1075,7 @@ export default function Home() {
                       <span style={{ fontWeight: "500" }}>
                         If you're done with half-measures and ready for a
                         pre-workout that delivers both energy and enhanced
-                        metabolism, HYDE® Thermo is your go-to.
+                        metabolism, HYDE® Thermo is your go-to.†
                       </span>
                       <br />
                       <br />
