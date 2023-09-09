@@ -12,11 +12,21 @@
   padding: 0px 24px;
 }
 
+.arrows {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.arrows > svg {
+  transform: rotate(90deg);
+}
 .heading {
   margin-top: 10px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 150%;
+  font-style: italic;
 }
 
 .one {
@@ -28,7 +38,7 @@
 }
 
 .flavorBox {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -160,7 +170,8 @@
   padding: 14px;
   display: grid;
   place-items: center;
-  font-weight: 900;
+  font-weight: 800;
+  font-size: 13px;
 }
 
 .spinner {
@@ -192,12 +203,12 @@
   width: max-content;
   padding: 10px 15px;
   border: 1px solid red;
-  font-size: 12px;
 }
 
 .red > p {
   font-weight: 900;
   text-decoration: underline;
+  font-size: 12px;
 }
 
 @keyframes pluse {

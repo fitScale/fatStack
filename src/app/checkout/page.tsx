@@ -206,6 +206,11 @@ export default function Checkout() {
         <p className={style.heading}>
           FOLLOW THE INSTRUCTIONS BELOW TO CLAIM YOUR STACK:
         </p>
+        <div className={style.arrows}>
+          <Svg icon="ArrowSkinnyIcon" color="white" />
+          <Svg icon="ArrowSkinnyIcon" color="white" />
+          <Svg icon="ArrowSkinnyIcon" color="white" />
+        </div>
         <div className={style.flavorBox}>
           <p className={style.one}>1: SELECT YOUR HYDE FLAVOR</p>
 
@@ -221,7 +226,7 @@ export default function Checkout() {
         {hyde && carnitine && (
           <div id="review" className={style.reviewContainer}>
             <div className={style.red}>
-              <Svg icon="DangerIcon" color="red" />
+              <Svg icon="DangerIcon" color="red" size="15px" />
               <p>
                 WARNING:{" "}
                 <span style={{ fontWeight: "700" }}>THIS OFFER ENDS SOON!</span>
