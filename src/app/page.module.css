@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.main a {
+  width: 100%;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -126,6 +130,10 @@
   border: 2px solid white;
   color: white;
   border-radius: var(--borderRadius);
+}
+
+.cta > * {
+  inherits: none;
 }
 
 .productInfoSection > p {
@@ -266,6 +274,7 @@
   flex-direction: column;
   gap: 12px;
   background-color: rgba(0, 0, 0, 0.265);
+  margin-bottom: 20px;
 }
 
 .gaurentee > p {
@@ -290,7 +299,7 @@
   margin-bottom: 15px;
 }
 
-.productInfo > button {
+.productInfo > a {
   margin-top: 20px;
 }
 
@@ -515,7 +524,7 @@
   .desktopCopyText > .infoBox {
     width: 80%;
   }
-  .desktopCopyText > button {
+  .desktopCopyText > a {
     width: 80%;
     margin-top: 20px;
   }

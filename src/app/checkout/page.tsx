@@ -228,8 +228,9 @@ export default function Checkout() {
           <p className={style.select}>( TAP TO SELECT )</p>
           {generateCarnitine(carntineFlavors)}
         </div>
+        <div id="review"></div>
         {hyde && carnitine && (
-          <div id="review" className={style.reviewContainer}>
+          <div className={style.reviewContainer}>
             <div className={style.red}>
               <Svg icon="DangerIcon" color="red" size="15px" />
               <p>
