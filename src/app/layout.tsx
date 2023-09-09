@@ -6,7 +6,6 @@ import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
 import ApolloClientProvider from "@/shopify/storeFront.apollo.client";
-import AppContextProvider from "@/contexts/AppContext";
 
 import localFont from "next/font/local";
 import Script from "next/script";
