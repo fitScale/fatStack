@@ -94,12 +94,13 @@ export default function Checkout() {
     {
       name: "Molten Mango",
       color: "rgb(226, 151, 0)",
-      checkout: "gid://shopify/ProductVariant/40517965840569",
+
+      checkout: "gid://shopify/ProductVariant/40517965873337",
     },
     {
       name: "Fire Melon",
       color: "#a9006e",
-      checkout: "gid://shopify/ProductVariant/40517965873337",
+      checkout: "gid://shopify/ProductVariant/40517965840569",
     },
   ];
 
