@@ -221,3 +221,12 @@
     text-shadow: 0px 0px 10px rgb(255, 0, 0);
   }
 }
+
+@media (min-width: 961px) {
+  .main {
+    padding: 0px 30%;
+  }
+  .header > div {
+    width: 25%;
+  }
+}
