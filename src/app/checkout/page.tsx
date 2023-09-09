@@ -91,12 +91,12 @@ export default function Checkout() {
 
   const hydeFlavors: flavors[] = [
     {
-      name: "MOLTEN MANGO",
+      name: "Molten Mango",
       color: "rgb(226, 151, 0)",
       checkout: "gid://shopify/ProductVariant/40517965840569",
     },
     {
-      name: "FIRE MELON",
+      name: "Fire Melon",
       color: "#a9006e",
       checkout: "gid://shopify/ProductVariant/40517965873337",
     },
@@ -104,22 +104,22 @@ export default function Checkout() {
 
   const carntineFlavors: flavors[] = [
     {
-      name: "BERRY",
+      name: "Berry Blast",
       color: "#8500ad",
       checkout: "gid://shopify/ProductVariant/40776238432441",
     },
     {
-      name: "BLUR RAZZ",
+      name: "Blue Razz",
       color: "#0078c2",
       checkout: "gid://shopify/ProductVariant/40776238465209",
     },
     {
-      name: "GREEN APPLE",
+      name: "Green Apple",
       color: "#00ad3d",
       checkout: "gid://shopify/ProductVariant/40776238497977",
     },
     {
-      name: "DRAGON FRUIT",
+      name: "Dragon Fruit",
       color: "#89005b",
       checkout: "gid://shopify/ProductVariant/43325224812729",
     },
@@ -204,7 +204,12 @@ export default function Checkout() {
         </div>
 
         <p className={style.heading}>
-          FOLLOW THE INSTRUCTIONS BELOW TO CLAIM YOUR STACK:
+          <span style={{ fontWeight: "600" }}>
+            FOLLOW THESE STEPS TO CLAIM YOUR BIG SAVINGS &
+          </span>{" "}
+          <span style={{ fontWeight: "900", textDecoration: "underline" }}>
+            FAST-TRACK YOUR FAT-LOSS JOURNEY TODAY!
+          </span>
         </p>
         <div className={style.arrows}>
           <Svg icon="ArrowSkinnyIcon" color="white" />
