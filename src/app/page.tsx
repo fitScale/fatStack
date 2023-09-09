@@ -215,7 +215,7 @@ export default function Home() {
         </div>
         <div className={style.copy}>
           <div>
-            <p>LIMITED TIME OFFER, GET</p>
+            <p>FOR A LIMITED TIME, GET</p>
             <h1>THE ULTIMATE FAT BURNING DUO</h1>
             <p style={{ fontWeight: "800" }}>
               AT A WHOPPING{" "}
