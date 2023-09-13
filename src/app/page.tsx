@@ -18,7 +18,9 @@ import UserReview, {
 } from "@/components/UserReview/UserReview.component";
 import Link from "next/link";
 import va from "@vercel/analytics";
+import { useRouter } from "next/navigation";
 
+const router = useRouter();
 export default function Home() {
   const logo: ImageContainerProps = {
     src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693082667/ProSupps/logos/ProSuppsLogo-dark_yelsda.webp",
@@ -799,6 +801,7 @@ export default function Home() {
               href="/checkout"
               onClick={() => {
                 va.track("Claim");
+                router.push("/checkout");
               }}
             >
               <button className={style.cta}>
@@ -993,6 +996,7 @@ export default function Home() {
                   href="/checkout"
                   onClick={() => {
                     va.track("Claim");
+                    router.push("/checkout");
                   }}
                 >
                   <button className={style.cta}>
@@ -1206,6 +1210,7 @@ export default function Home() {
             href="/checkout"
             onClick={() => {
               va.track("Claim");
+              router.push("/checkout");
             }}
           >
             <button className={style.cta}>
