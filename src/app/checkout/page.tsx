@@ -22,7 +22,7 @@ import va from "@vercel/analytics";
 export default function Checkout() {
   const router = useRouter();
   const [carnitine, setCarntine] = useState<string | undefined>();
-  const [hyde, setHyde] = useState<string | undefined>();
+
   const [loading, setLoading] = useState(false);
 
   const logo: ImageContainerProps = {
@@ -39,31 +39,6 @@ export default function Checkout() {
 
   // "gid://shopify/ProductVariant/40517965840569"
   // "gid://shopify/ProductVariant/40517965873337"
-
-  const geneateHyde = (flavors: flavors[]) => {
-    const gen = [];
-    for (let i = 0; i < flavors.length; i++) {
-      gen.push(
-        <div
-          className={style.colorBox}
-          style={{
-            backgroundColor: flavors[i].color,
-            filter: hyde
-              ? hyde === flavors[i].checkout
-                ? "brightness(120%)"
-                : "brightness(40%)"
-              : "none",
-          }}
-          onClick={() => {
-            setHyde(flavors[i].checkout);
-          }}
-        >
-          <p>{flavors[i].name}</p>
-        </div>
-      );
-    }
-    return gen;
-  };
 
   const generateCarnitine = (flavors: flavors[]) => {
     const gen = [];
@@ -139,20 +114,9 @@ export default function Checkout() {
   };
 
   useEffect(() => {
-    const element = document.getElementById("carnitne");
-
-    if (element && hyde) {
-      element.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
-  }, [hyde]);
-
-  useEffect(() => {
     const element = document.getElementById("review");
 
-    if (element && hyde && carnitine) {
+    if (element && carnitine) {
       element.scrollIntoView({
         behavior: "smooth",
         block: "start",
@@ -168,7 +132,7 @@ export default function Checkout() {
     setLoading(true);
 
     const cart = await CartClientServices.createCart(createCart, {
-      merchandiseId: hyde!,
+      merchandiseId: "gid://shopify/ProductVariant/43583774261433",
       quantity: 1,
     });
 
@@ -186,7 +150,7 @@ export default function Checkout() {
 
     const discount = await CartClientServices.applyDiscount(discountCode, {
       cartId: finalCart.cart.id!,
-      codes: ["fat-loss-stack-discount"],
+      codes: ["HKMR4XKY294K"],
     });
 
     router.push(finalCart.cart.checkoutUrl!);
@@ -217,12 +181,7 @@ export default function Checkout() {
           <Svg icon="ArrowSkinnyIcon" color="white" />
           <Svg icon="ArrowSkinnyIcon" color="white" />
         </div>
-        <div className={style.flavorBox}>
-          <p className={style.one}>1: SELECT YOUR HYDE FLAVOR</p>
 
-          <p className={style.select}>( TAP TO SELECT )</p>
-          {geneateHyde(hydeFlavors)}
-        </div>
         <div id="carnitne" className={style.flavorBox}>
           <p className={style.one}>2: SELECT YOUR L-CARNITINE FLAVOR</p>
 
@@ -230,7 +189,7 @@ export default function Checkout() {
           {generateCarnitine(carntineFlavors)}
         </div>
         <div id="review"></div>
-        {hyde && carnitine && (
+        {carnitine && (
           <div className={style.reviewContainer}>
             <div className={style.red}>
               <Svg icon="DangerIcon" color="red" size="15px" />
@@ -241,37 +200,37 @@ export default function Checkout() {
             </div>
             <p className={style.one}>3: REVIEW YOUR ORDER</p>
             <div className={style.value}>
-              <p>HYDE THERMO ( 1 ) ~ Value: $31.99</p>
-              <p>L-CARNITINE 3000 ( 1 ) ~ Value: $29.99</p>
+              <p>CLA 3000 ( 1 ) ~ Value: $29.99</p>
+              <p>L-CARNITINE 3000 ( 1 ) ~ Value: $19.99</p>
 
               <p style={{ fontWeight: "700" }} className={style.total}>
-                TOTAL STACK VALUE: $62.00
+                TOTAL STACK VALUE: $48.98
               </p>
               <hr />
               <p
                 style={{ fontWeight: "800", color: "white" }}
                 className={style.today}
               >
-                TODAY'S SPECIAL PRICE: $39.99
+                TODAY'S SPECIAL PRICE: $37.48
               </p>
-              <div className={style.saved}>YOUR JUST SAVED $22.01!</div>
+              <div className={style.saved}>YOUR JUST SAVED $12.48!</div>
             </div>
             <div className={style.review}>
               <div className={style.info}>
-                <ImageContainer imageContainerConfig={hydeImage} />
-                <p>HYPE THERMO</p>
+                <ImageContainer
+                  imageContainerConfig={{
+                    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1707883140/ASFDASFDASDFASDFASF_cdp382.png",
+                    alt: "",
+                    aspectRatio: "1/1",
+                  }}
+                />
+                <p>CLA 3000</p>
                 <p
                   style={{
-                    backgroundColor: hydeFlavors.filter((e) => {
-                      return e.checkout === hyde;
-                    })[0].color,
+                    backgroundColor: "grey",
                   }}
                 >
-                  {
-                    hydeFlavors.filter((e) => {
-                      return e.checkout === hyde;
-                    })[0].name
-                  }
+                  UNFLAVORED
                 </p>
               </div>
               <div className={style.info}>

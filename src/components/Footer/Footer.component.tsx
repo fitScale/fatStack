@@ -59,7 +59,7 @@ const Footer = () => {
       </div>
       <p className={style.fitScale}>
         Website Powered By{" "}
-        <span className={`underline ${style.brandName}`}>FitScale</span>
+        <span className={`underline ${style.brandName}`}>TVG</span>
       </p>
     </footer>
   );

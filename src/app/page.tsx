@@ -20,8 +20,8 @@ import Link from "next/link";
 import va from "@vercel/analytics";
 import { useRouter } from "next/navigation";
 
-const router = useRouter();
 export default function Home() {
+  const router = useRouter();
   const logo: ImageContainerProps = {
     src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693082667/ProSupps/logos/ProSuppsLogo-dark_yelsda.webp",
     alt: "",
@@ -29,19 +29,19 @@ export default function Home() {
   };
 
   const mobileBanner: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693620621/ProSupps/banners/Thermo_Stack_jy545l.jpg",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1707881567/FInalone_fahh3r.jpg",
     alt: "",
     aspectRatio: "1637/2238",
   };
 
   const productBanner: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693693072/TheFinalOneFR_hypusy.jpg",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1707882024/fjhasd_flhjasdfd_np8b1k.png",
     alt: "",
     aspectRatio: "1080/2814",
   };
 
   const desktopBanner: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693718384/ProSupps/banners/TheLiteralfinal_fplruu.jpg",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1707881567/FinalDesktop_arwyg8.jpg",
     alt: "",
     aspectRatio: "2414/1357",
   };
@@ -52,7 +52,7 @@ export default function Home() {
   };
 
   const hydroBanner: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693703565/ProSupps/productImages/HydeFinal_qtbz6n.jpg",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1707882704/cla_lrvqp8.png",
     alt: "",
     aspectRatio: "2/1.75",
   };
@@ -118,7 +118,7 @@ export default function Home() {
   };
 
   const sampleThree: ImageContainerProps = {
-    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693701237/ProSupps/productImages/hyde2-min_anl4cu.png",
+    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1707882266/CLA_oddndp.png",
     alt: "",
     aspectRatio: "1080/811",
   };
@@ -182,12 +182,7 @@ export default function Home() {
         <div className={style.banner}>
           <ImageContainer imageContainerConfig={mobileBanner} />
           <p>
-            TURBOCHARGES YOUR{" "}
-            <span style={{ fontWeight: 900, textDecoration: "underline" }}>
-              {" "}
-              METABOLISM
-            </span>
-            , ENERGY, AND FOCUS.†
+            IMPROVES BODY COMPOSITION &<br /> WEIGHT LOSS AID.†
           </p>
           <p>ENHANCES FAT TO ENERGY CONVERSION!† </p>
           <div>
@@ -211,9 +206,9 @@ export default function Home() {
                       textDecoration: "line-through",
                     }}
                   >
-                    $62.00
+                    $49.98
                   </span>{" "}
-                  $39.99
+                  $37.49
                 </span>
               </button>
             </Link>
@@ -227,7 +222,7 @@ export default function Home() {
             <h1>THE ULTIMATE FAT BURNING DUO</h1>
             <p style={{ fontWeight: "800" }}>
               AT A WHOPPING{" "}
-              <span style={{ textDecoration: "underline" }}>35% DISCOUNT</span>
+              <span style={{ textDecoration: "underline" }}>25% DISCOUNT</span>
             </p>
           </div>
         </div>
@@ -245,7 +240,7 @@ export default function Home() {
           <div className={style.prodcutText}>
             <p>Your Secret Weapon for Fat-to-Energy Conversion!† </p>
             <p></p>
-            <p>Energize and Turbocharge Your Metabolism!† </p>
+            <p>The Ultimate Weight-Loss Super-Aid!† </p>
           </div>
           <h2>Unlock the Secret Weapons for Fat Destruction:</h2>
           <div className={style.productBuffer}></div>
@@ -307,16 +302,13 @@ export default function Home() {
               <br />
               <span style={{ fontStyle: "italic", fontWeight: "800" }}>
                 {" "}
-                ✅ HYDE® Thermo:
+                ✅ CLA 3000:
               </span>
               <br />
               <br />
-              Infused with Capsimax® to turbocharge your metabolism into
-              overdrive and fortified with caffeine and Vitamin B-12 for
-              <span style={{ textDecoration: "underline", fontWeight: "700" }}>
-                {" "}
-                razor-sharp focus and powerful energy.†
-              </span>
+              CLA 3000 is for anyone looking to improve their body composition
+              and aid in weight loss. It can help you feel fuller longer,
+              decreasing the desire for excess calories.†
               <br />
               <br />{" "}
               <span style={{ fontStyle: "italic", fontWeight: "800" }}>
@@ -418,9 +410,9 @@ export default function Home() {
                     textDecoration: "line-through",
                   }}
                 >
-                  $62.00
+                  $49.98
                 </span>{" "}
-                $39.99
+                $37.49
               </span>
             </button>
           </Link>
@@ -503,9 +495,9 @@ export default function Home() {
                       textDecoration: "line-through",
                     }}
                   >
-                    $62.00
+                    $49.98
                   </span>{" "}
-                  $39.99
+                  $37.49
                 </span>
               </button>
             </Link>
@@ -522,31 +514,24 @@ export default function Home() {
           </div>
           <ImageContainer imageContainerConfig={sampleThree} />
           <div className={style.productInfoSection}>
-            <p>HYDE® THERMO:</p>
+            <p> Meet CLA 3000:</p>
             <p style={{ fontWeight: "800", fontStyle: "italic" }}>
-              Typical pres' give you a caffeine buzz but lack a real metabolic
-              kick to give you the edge in weight loss?
-              <br />
-              <br />
-              <span style={{ fontWeight: "500", fontStyle: "normal" }}>
-                {" "}
-                Meet HYDE® Thermo. This isn't just another energy booster; it's
-                a metabolic energizer.†
-              </span>
+              Not Just Another Supplement; A Weight Management Revolution.†
+              <span style={{ fontWeight: "500", fontStyle: "normal" }}> </span>
             </p>
             <div className={`${style.infoBox} ${style.hydeInfo}`}>
               <div>
                 <Svg icon="ElectricIcon" color="white" />
-                <p>Insane Energy Meets Metabolic Mastery†</p>
+                <p>
+                  Tired of weight loss efforts that barely scratch the surface?
+                </p>
               </div>
               <p>
                 <span style={{ fontWeight: "500" }}>
-                  With 250mg of caffeine for that unmistakable energy surge and
-                  <span style={{ fontWeight: "800" }}>
-                    {" "}
-                    50mg of Capsimax® to ignite your metabolism
-                  </span>
-                  , we're offering a full-spectrum experience.†
+                  With every serving delivering a robust 3400-6800mg of
+                  Conjugated Linoleic Acid (CLA), CLA 3000 ignites your
+                  metabolism and optimizes body composition, far beyond the
+                  average intake from food.†
                 </span>
                 <br />
                 <br />
@@ -560,9 +545,8 @@ export default function Home() {
             <h3 style={{ marginTop: "20px" }}>Let's Put It Plainly:</h3>{" "}
             <p>
               <span style={{ fontWeight: "500" }}>
-                If you're done with half-measures and ready for a pre-workout
-                that delivers both energy and enhanced metabolism, HYDE® Thermo
-                is your go-to.†
+                If you're seeking a supplement that targets weight loss
+                effectively and enhances muscle tone, CLA 3000 is your answer.†
               </span>
               <br />
               <br />
@@ -573,8 +557,8 @@ export default function Home() {
                   fontStyle: "italic",
                 }}
               >
-                Maximize Energy, Rev Up Metabolism, and Take Your Workouts to
-                the Next Level. Try Thermo today!†
+                Elevate Your Metabolism, Sculpt Your Body, Embrace the Change
+                with CLA 3000. Try It Now!†
               </span>
             </p>
             <hr style={{ marginTop: "20px" }} />
@@ -597,9 +581,9 @@ export default function Home() {
                       textDecoration: "line-through",
                     }}
                   >
-                    $62.00
+                    $49.98
                   </span>{" "}
-                  $39.99
+                  $37.49
                 </span>
               </button>
             </Link>
@@ -634,9 +618,9 @@ export default function Home() {
                         textDecoration: "line-through",
                       }}
                     >
-                      $62.00
+                      $49.98
                     </span>{" "}
-                    $39.99
+                    $37.49
                   </span>
                 </button>
               </Link>
@@ -723,9 +707,9 @@ export default function Home() {
                     textDecoration: "line-through",
                   }}
                 >
-                  $62.00
+                  $49.98
                 </span>{" "}
-                $39.99
+                $37.49
               </span>
             </button>
           </Link>
@@ -736,9 +720,7 @@ export default function Home() {
         <div className={style.desktopBanner}>
           <div className={style.desktopHeader}>
             <ImageContainer imageContainerConfig={logo} />
-            <p style={{ fontWeight: "800" }}>
-              {"hundreds of millions of Hyde servings sold worldwide!".toUpperCase()}
-            </p>
+            <p style={{ fontWeight: "800" }}></p>
           </div>
           <div style={{ width: "100%" }}>
             <img
@@ -763,22 +745,17 @@ export default function Home() {
             </h1>
             <p>
               AT A WHOPPING{" "}
-              <span style={{ textDecoration: "underline" }}>35% DISCOUNT</span>
+              <span style={{ textDecoration: "underline" }}>25% DISCOUNT</span>
             </p>
             <div className={style.infoBox} style={{ marginTop: "20px" }}>
               <div>
                 <Svg icon="ElectricIcon" color="white" />
-                <p>HYDE® Thermo:</p>
+                <p>CLA 3000:</p>
               </div>
               <p>
-                Infused with Capsimax® to turbocharge your metabolism into
-                overdrive and fortified with caffeine and Vitamin B-12 for
-                <span
-                  style={{ textDecoration: "underline", fontWeight: "700" }}
-                >
-                  {" "}
-                  razor-sharp focus and powerful energy.†
-                </span>
+                CLA 3000 is for anyone looking to improve their body composition
+                and aid in weight loss. It can help you feel fuller longer,
+                decreasing the desire for excess calories.†
               </p>
             </div>
             <div className={style.infoBox}>
@@ -818,9 +795,9 @@ export default function Home() {
                       textDecoration: "line-through",
                     }}
                   >
-                    $62.00
+                    $49.98
                   </span>{" "}
-                  $39.99
+                  $37.49
                 </span>
               </button>
             </Link>
@@ -910,18 +887,13 @@ export default function Home() {
                   <br />
                   <span style={{ fontStyle: "italic", fontWeight: "800" }}>
                     {" "}
-                    ✅ HYDE® Thermo:
+                    ✅ CLA 3000:
                   </span>
                   <br />
                   <br />
-                  Infused with Capsimax® to turbocharge your metabolism into
-                  overdrive and fortified with caffeine and Vitamin B-12 for
-                  <span
-                    style={{ textDecoration: "underline", fontWeight: "600" }}
-                  >
-                    {" "}
-                    razor-sharp focus and powerful energy.†
-                  </span>
+                  CLA 3000 is for anyone looking to improve their body
+                  composition and aid in weight loss. It can help you feel
+                  fuller longer, decreasing the desire for excess calories.†
                   <br />
                   <br />{" "}
                   <span style={{ fontStyle: "italic", fontWeight: "800" }}>
@@ -1013,9 +985,9 @@ export default function Home() {
                           textDecoration: "line-through",
                         }}
                       >
-                        $62.00
+                        $49.98
                       </span>{" "}
-                      $39.99
+                      $37.49
                     </span>
                   </button>
                 </Link>
@@ -1025,7 +997,7 @@ export default function Home() {
               <div className={style.productdesktop}>
                 <ImageContainer
                   imageContainerConfig={{
-                    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Oneone-min_rwvank.png",
+                    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1707883207/SDFASFASDFASDFASFASDFA_z3lfrx.png",
                     alt: "",
                     aspectRatio: "1/1",
                   }}
@@ -1081,36 +1053,29 @@ export default function Home() {
               <div className={style.productdesktop}>
                 <ImageContainer
                   imageContainerConfig={{
-                    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Testssfasf-min_kkk5df.png",
+                    src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1707883140/ASFDASFDASDFASDFASF_cdp382.png",
                     alt: "",
                     aspectRatio: "1/1",
                   }}
                 />
                 <div>
                   <div className={style.productInfoSection}>
-                    <p>HYDE® THERMO:</p>
+                    <p>CLA 3000:</p>
                     <p style={{ fontWeight: "800", fontStyle: "italic" }}>
                       {" "}
-                      Meet HYDE® Thermo. This isn't just another energy booster;
-                      it's a metabolic energizer.†
+                      Meet CLA 3000: Not Just Another Supplement; A Weight
+                      Management Revolution.†
                     </p>
                     <div className={`${style.infoBox} ${style.hydeInfo}`}>
                       <div>
                         <Svg icon="ElectricIcon" color="white" />
-                        <p>Insane Energy Meets Metabolic Mastery† </p>
+                        <p>Weight Control Meets Scientific Precision†</p>
                       </div>
                       <p>
-                        <span style={{ fontWeight: "500" }}>
-                          With 250mg of caffeine for that unmistakable energy
-                          surge and
-                          <span style={{ fontWeight: "800" }}>
-                            {" "}
-                            50mg of Capsimax® to ignite your metabolism
-                          </span>
-                          , we're offering a full-spectrum experience.†
-                        </span>
-                        <br />
-                        <br />
+                        With every serving delivering a robust 3400-6800mg of
+                        Conjugated Linoleic Acid (CLA), CLA 3000 ignites your
+                        metabolism and optimizes body composition, far beyond
+                        the average intake from food.†
                       </p>
                     </div>
                     <h3 style={{ marginTop: "20px", fontSize: "20px" }}>
@@ -1118,9 +1083,9 @@ export default function Home() {
                     </h3>{" "}
                     <p>
                       <span style={{ fontWeight: "500" }}>
-                        If you're done with half-measures and ready for a
-                        pre-workout that delivers both energy and enhanced
-                        metabolism, HYDE® Thermo is your go-to.†
+                        If you're seeking a supplement that targets weight loss
+                        effectively and enhances muscle tone, CLA 3000 is your
+                        answer.†
                       </span>
                       <br />
                       <br />
@@ -1157,7 +1122,7 @@ export default function Home() {
             />
             <ImageContainer
               imageContainerConfig={{
-                src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Testssfasf-min_kkk5df.png",
+                src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1707883140/ASFDASFDASDFASDFASF_cdp382.png",
                 alt: "",
                 aspectRatio: "1/1",
               }}
@@ -1185,7 +1150,7 @@ export default function Home() {
             />
             <ImageContainer
               imageContainerConfig={{
-                src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1693621742/ProSupps/banners/Testssfasf-min_kkk5df.png",
+                src: "https://res.cloudinary.com/dod9nbjke/image/upload/v1707883140/ASFDASFDASDFASDFASF_cdp382.png",
                 alt: "",
                 aspectRatio: "1/1",
               }}
@@ -1227,9 +1192,9 @@ export default function Home() {
                     textDecoration: "line-through",
                   }}
                 >
-                  $62.00
+                  $49.98
                 </span>{" "}
-                $39.99
+                $37.49
               </span>
             </button>
           </Link>
