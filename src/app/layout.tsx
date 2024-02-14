@@ -24,8 +24,8 @@ const archivo = Archivo({ subsets: ["latin"], variable: "--archivo" });
 const inter = Inter({ subsets: ["latin"], variable: "--inter" });
 
 export const metadata = {
-  title: "PROSUPPS - 35% OFF THE FAT LOSS STACK",
-  description: "Limited time only! 35% OFF THE FAT LOSS STACK",
+  title: "PROSUPPS - 25% OFF THE FAT LOSS STACK",
+  description: "Limited time only! 25% OFF THE FAT LOSS STACK",
   themeColor: "black",
 };
 
