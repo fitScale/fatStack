@@ -82,6 +82,10 @@
   text-align: right;
 }
 
+.cta {
+  z-index: 999;
+}
+
 .copy {
   width: 100%;
   display: flex;
@@ -602,7 +606,7 @@
     position: relative;
     width: 100%;
     aspect-ratio: 1920/1389;
-    z-index: -1;
+
     background-color: #363636;
   }
 
@@ -633,7 +637,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
   }
 
   .grid {
@@ -694,7 +697,6 @@
     top: 125px;
     left: 0;
     width: 100%;
-    z-index: -1;
   }
 
   .reviewHeading {

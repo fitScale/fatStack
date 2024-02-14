@@ -1103,12 +1103,7 @@ export default function Home() {
             </div>
           </div>
           <div className={style.background}>
-            <div style={{ width: "100%" }}>
-              <img
-                style={{ aspectRatio: "1920/1389", width: "100%" }}
-                src="https://res.cloudinary.com/dod9nbjke/image/upload/v1693597219/ProSupps/Misc%20Assets/BackgroundTest_nmfhju.jpg"
-              />
-            </div>
+            <div style={{ width: "100%" }}></div>
           </div>
         </div>
         <div className={style.reviews}>
@@ -1172,6 +1167,7 @@ export default function Home() {
           </div>
           <div className={style.reviewGrid}>{generateReview(reviews)}</div>
           <Link
+            style={{ zIndex: "1" }}
             href="/checkout"
             onClick={() => {
               va.track("Claim");
