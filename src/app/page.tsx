@@ -208,7 +208,7 @@ export default function Home() {
                   >
                     $49.98
                   </span>{" "}
-                  $37.49
+                  $37.48
                 </span>
               </button>
             </Link>
@@ -412,7 +412,7 @@ export default function Home() {
                 >
                   $49.98
                 </span>{" "}
-                $37.49
+                $37.48
               </span>
             </button>
           </Link>
@@ -497,7 +497,7 @@ export default function Home() {
                   >
                     $49.98
                   </span>{" "}
-                  $37.49
+                  $37.48
                 </span>
               </button>
             </Link>
@@ -583,7 +583,7 @@ export default function Home() {
                   >
                     $49.98
                   </span>{" "}
-                  $37.49
+                  $37.48
                 </span>
               </button>
             </Link>
@@ -620,7 +620,7 @@ export default function Home() {
                     >
                       $49.98
                     </span>{" "}
-                    $37.49
+                    $37.48
                   </span>
                 </button>
               </Link>
@@ -709,7 +709,7 @@ export default function Home() {
                 >
                   $49.98
                 </span>{" "}
-                $37.49
+                $37.48
               </span>
             </button>
           </Link>
@@ -797,7 +797,7 @@ export default function Home() {
                   >
                     $49.98
                   </span>{" "}
-                  $37.49
+                  $37.48
                 </span>
               </button>
             </Link>
@@ -987,7 +987,7 @@ export default function Home() {
                       >
                         $49.98
                       </span>{" "}
-                      $37.49
+                      $37.48
                     </span>
                   </button>
                 </Link>
@@ -1190,7 +1190,7 @@ export default function Home() {
                 >
                   $49.98
                 </span>{" "}
-                $37.49
+                $37.48
               </span>
             </button>
           </Link>
