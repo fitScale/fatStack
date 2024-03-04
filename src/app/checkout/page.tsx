@@ -131,18 +131,10 @@ export default function Checkout() {
   const checkout = async () => {
     setLoading(true);
 
-    const cart = await CartClientServices.createCart(createCart, {
-      merchandiseId: "gid://shopify/ProductVariant/43583774261433",
-      quantity: 1,
-    });
-
-    console.log(cart);
-
     const finalCart = await CartClientServices.addCartItem(
       addCart,
       createCart,
       {
-        cartId: cart.cart.id,
         merchandiseId: carnitine!,
         quantity: 1,
       }
