@@ -82,22 +82,22 @@ export default function Checkout() {
     {
       name: "Berry Blast",
       color: "#8500ad",
-      checkout: "gid://shopify/ProductVariant/40776238432441",
+      checkout: "gid://shopify/ProductVariant/43718280347833",
     },
     {
       name: "Blue Razz",
       color: "#0078c2",
-      checkout: "gid://shopify/ProductVariant/40776238465209",
+      checkout: "gid://shopify/ProductVariant/43718280282297",
     },
     {
       name: "Green Apple",
       color: "#00ad3d",
-      checkout: "gid://shopify/ProductVariant/40776238497977",
+      checkout: "gid://shopify/ProductVariant/43718280315065",
     },
     {
       name: "Dragon Fruit",
       color: "#89005b",
-      checkout: "gid://shopify/ProductVariant/43325224812729",
+      checkout: "gid://shopify/ProductVariant/43718280380601",
     },
   ];
 
